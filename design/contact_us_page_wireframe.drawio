@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T12:04:53.340Z" agent="5.0 (X11; Ubuntu)" etag="JmkO3QK-IRpA2pR2VNFU" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-08T22:12:40.829Z" agent="5.0 (X11; Ubuntu)" etag="xHh0VQeemgvl8KtQAZEP" version="20.6.0" type="github">
   <diagram id="zjbsmMx9dNUYekVJXI4S" name="Page-1">
     <mxGraphModel dx="68" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -23,22 +23,22 @@
           <mxGeometry x="960" y="330" width="680" height="50" as="geometry" />
         </mxCell>
         <mxCell id="j1M_ww33Xoy92D7wLLYM-5" value="Academics" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="980" y="330" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="j1M_ww33Xoy92D7wLLYM-6" value="Calendar" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1110" y="330" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="j1M_ww33Xoy92D7wLLYM-7" value="About" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1370" y="330" width="120" height="50" as="geometry" />
+        <mxCell id="j1M_ww33Xoy92D7wLLYM-6" value="Calendar" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="330" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="j1M_ww33Xoy92D7wLLYM-8" value="Contact us" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="j1M_ww33Xoy92D7wLLYM-7" value="About" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1500" y="330" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j1M_ww33Xoy92D7wLLYM-8" value="Home" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="980" y="330" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="j1M_ww33Xoy92D7wLLYM-9" value="space" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="960" y="380" width="680" height="40" as="geometry" />
         </mxCell>
         <mxCell id="j1M_ww33Xoy92D7wLLYM-10" value="Stories" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1240" y="330" width="120" height="50" as="geometry" />
+          <mxGeometry x="1370" y="330" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="j1M_ww33Xoy92D7wLLYM-124" value="Get us here" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="980" y="515" width="120" height="60" as="geometry" />
