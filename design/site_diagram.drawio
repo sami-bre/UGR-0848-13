@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-11T12:18:36.819Z" agent="5.0 (X11; Ubuntu)" etag="0FvagzwWnqATStK__mjQ" version="20.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-11T12:33:00.731Z" agent="5.0 (X11; Ubuntu)" etag="6BlgjAeuDosLvf3vpejP" version="20.6.1" type="github">
   <diagram id="m9PMfBZhk3B97DJcjl-R" name="Page-1">
     <mxGraphModel dx="2468" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -35,25 +35,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6VMPx-9qV-DlEiWLGAsJ-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Get to know us&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
-          <mxGeometry x="-900" y="420" width="140" height="60" as="geometry" />
+          <mxGeometry x="-1064.5" y="420" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6VMPx-9qV-DlEiWLGAsJ-8" value="About" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="-1050" y="570" width="111" height="60" as="geometry" />
+          <mxGeometry x="-1220" y="570" width="111" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6VMPx-9qV-DlEiWLGAsJ-9" value="FAQ" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="-909" y="570" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1079" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6VMPx-9qV-DlEiWLGAsJ-22" value="&lt;font style=&quot;font-size: 27px;&quot;&gt;Site diagram for a school website &lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-1190" y="70" width="335" height="70" as="geometry" />
+          <mxGeometry x="-1230" y="70" width="335" height="70" as="geometry" />
         </mxCell>
         <mxCell id="wa6b5uwlluNeqC9EEHRy-1" value="Contact us" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="-759" y="570" width="140" height="60" as="geometry" />
+          <mxGeometry x="-929" y="570" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wa6b5uwlluNeqC9EEHRy-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Success storeis&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1070" y="420" width="120" height="60" as="geometry" />
+          <mxGeometry x="-880" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wa6b5uwlluNeqC9EEHRy-11" value="&lt;p&gt;Only the boxes in white represent pages. The ones in grey are entries for navigation options.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1180" y="150" width="340" height="120" as="geometry" />
+          <mxGeometry x="-1230" y="150" width="340" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
