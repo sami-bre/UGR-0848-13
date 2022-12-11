@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-11T12:18:05.421Z" agent="5.0 (X11; Ubuntu)" etag="Z8MFWrPaYsELlZkp_u5_" version="20.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-11T12:18:36.819Z" agent="5.0 (X11; Ubuntu)" etag="0FvagzwWnqATStK__mjQ" version="20.6.1" type="github">
   <diagram id="m9PMfBZhk3B97DJcjl-R" name="Page-1">
     <mxGraphModel dx="2468" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -52,7 +52,7 @@
         <mxCell id="wa6b5uwlluNeqC9EEHRy-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Success storeis&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1070" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wa6b5uwlluNeqC9EEHRy-11" value="&lt;p&gt;Only the boxes in white represent pages. The ones in grey represent option entries&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="wa6b5uwlluNeqC9EEHRy-11" value="&lt;p&gt;Only the boxes in white represent pages. The ones in grey are entries for navigation options.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-1180" y="150" width="340" height="120" as="geometry" />
         </mxCell>
       </root>
