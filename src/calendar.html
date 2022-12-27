@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="This is the calendar page for the Wisdom school website."
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
@@ -11,7 +15,7 @@
       <figure>
         <img
           class="logo"
-          src="logo.jpg"
+          src="assets/logo.jpg"
           alt="a book sitting on a cylindar as the logo of the website"
         />
         <figcaption class="slogan">Wisdom School</figcaption>
@@ -20,41 +24,48 @@
         <ul>
           <li><a href="home.html">Home</a></li>
           <li><a href="academics.html">Academics</a></li>
-          <li><div class="drop-down">Get to know us</div></li>
+          <li>
+            <div class="drop-down">Get to know us</div>
+            <ul>
+              <li><a href="about_page.html">About us</a></li>
+              <li><a href="stories.html">Success stories</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+            </ul>
+          </li>
           <li><a href="stories.html">stories</a></li>
         </ul>
       </nav>
     </header>
     <main>
-        <section class="calendar">
-            <h1>Calendar</h1>
-            <h2>This week</h2>
-            <table class="calendar-table">
-              <tr>
-                <td>Monday</td>
-                <td>Tuesday</td>
-                <td>
-                    Wednesday
-                    <em>Museum visit</em>
-                </td>
-              </tr>
-              <tr>
-                <td>Thursday</td>
-                <td>Friday</td>
-                <td>Saturday</td>
-              </tr>
-            </table>
-            <div class="calendar_card">
-              This div will be dynamically rendered with the events associated with
-              the week day (when we add some javascript)
-            </div>
-            <h2>Upcoming</h2>
-            <ul>
-                <li>Summer art contest! coming up on june 5</li>
-                <li>STEM field day, coming up on june 19</li>
-                <li>Family feast! coming up on june 30</li>
-            </ul>
-          </section>
+      <section class="calendar">
+        <h1>Calendar</h1>
+        <h2>This week</h2>
+        <table class="calendar-table" role="presentation">
+          <tr>
+            <td>Monday</td>
+            <td>Tuesday</td>
+            <td>
+              Wednesday
+              <em>Museum visit</em>
+            </td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>Friday</td>
+            <td>Saturday</td>
+          </tr>
+        </table>
+        <div class="calendar_card">
+          This div will be dynamically rendered with the events associated with
+          the week day (when we add some javascript)
+        </div>
+        <h2>Upcoming</h2>
+        <ul>
+          <li>Summer art contest! coming up on june 5</li>
+          <li>STEM field day, coming up on june 19</li>
+          <li>Family feast! coming up on june 30</li>
+        </ul>
+      </section>
     </main>
     <div class="space"></div>
     <footer>
@@ -62,9 +73,9 @@
         <h1>Contact us</h1>
         <form action="">
           <label for="email-field">Your email</label>
-          <input type="email" name="email-field" id="email-field"/>
+          <input type="email" name="email-field" id="email-field" />
           <label for="message-field">Your message</label>
-          <input type="text" name="message-field" id="message-field"/>
+          <input type="text" name="message-field" id="message-field" />
           <input type="submit" value="submit" />
         </form>
       </section>
@@ -73,8 +84,8 @@
         <ul>
           <li><a href="home.html">Home</a></li>
           <li><a href="calendar.html">Calendar</a></li>
-          <li><a href="success_stories.html">Success stories</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="stories.html">Success stories</a></li>
+          <li><a href="about_page.html">About</a></li>
           <li><a href="contact_us.html">Contact us</a></li>
         </ul>
       </section>
@@ -82,25 +93,25 @@
         <figure>
           <img
             class="logo"
-            src="logo.jpg"
+            src="assets/logo.jpg"
             alt="a book sitting on a cylindar as the logo of the website"
           />
           <figcaption class="slogan">Wisdom School</figcaption>
-          <address>
-            <figure>
-              <img src="phone.png" alt="a phpne number icon" />
-              <figcaption>+251 945 44 36 54</figcaption>
-            </figure>
-            <figure>
-              <img src="email.png" alt="a phpne number icon" />
-              <figcaption>wisdomSchooling@gamil.com</figcaption>
-            </figure>
-            <figure>
-              <img src="postal-code.png" alt="a phpne number icon" />
-              <figcaption>5143</figcaption>
-            </figure>
-          </address>
         </figure>
+        <address>
+          <figure>
+            <img src="assets/phone.png" alt="a phpne number icon" />
+            <figcaption>+251 945 44 36 54</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/email.png" alt="an email icon" />
+            <figcaption>wisdomSchooling@gamil.com</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/postal-code.png" alt="a zip-code icon" />
+            <figcaption>5143</figcaption>
+          </figure>
+        </address>
       </section>
       <p class="copyright">Copyright &#169; Widsom School.</p>
     </footer>

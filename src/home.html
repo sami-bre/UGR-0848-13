@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="This is the home page for the Wisdom school website."
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
@@ -11,7 +15,7 @@
       <figure>
         <img
           class="logo"
-          src="logo.jpg"
+          src="assets/logo.jpg"
           alt="a book sitting on a cylindar as the logo of the website"
         />
         <figcaption class="slogan">Wisdom School</figcaption>
@@ -20,7 +24,14 @@
         <ul>
           <li><a href="academics.html">Academics</a></li>
           <li><a href="calendar.html">Calendar</a></li>
-          <li><div class="drop-down">Get to know us</div></li>
+          <li>
+            <div class="drop-down">Get to know us</div>
+            <ul>
+              <li><a href="about_page.html">About us</a></li>
+              <li><a href="stories.html">Success stories</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+            </ul>
+          </li>
           <li><a href="stories.html">stories</a></li>
         </ul>
       </nav>
@@ -30,7 +41,7 @@
         <h1>Welcome to Wisdom School</h1>
         <figure>
           <img
-            src="school_principal.jpg"
+            src="assets/school_principal.jpg"
             alt="Christopher Nolan, the school principal, smiling"
           />
           <figure>Christopher Nolan, the school principal</figure>
@@ -42,15 +53,14 @@
           make them be the best they can be.
         </p>
         <h2>Listen to the message</h2>
-        # TODO: change this audio file
-        <audio src="memories_maroon.mp3" controls></audio>
+        <audio src="assets/welcome_message.mp3" controls></audio>
       </section>
       <div class="space"></div>
       <article class="school-info">
         <h1>Something about Wisdom School</h1>
         <figure>
           <img
-            src="school_image.jpg"
+            src="assets/school_image.jpg"
             alt="a teacher standing in front of students in a clasroom at wisdom school."
           />
           <figcaption>Our awesome 5th graders with their teacher</figcaption>
@@ -74,7 +84,7 @@
         <article class="student-info">
           <figure class="student-pic">
             <img
-              src="student_1.jpg"
+              src="assets/student_1.jpg"
               alt="Jamison Crosby, wearing his back-pack"
             />
             <figcaption>Jamison Crosby</figcaption>
@@ -89,7 +99,7 @@
         <article class="student-info">
           <figure class="student-pic">
             <img
-              src="student_2.jpg"
+              src="assets/student_2.jpg"
               alt="Cole Ibarra, standing in front of a black board"
             />
             <figcaption>Cole Ibarra</figcaption>
@@ -102,7 +112,7 @@
         </article>
         <article class="student-info">
           <figure class="student-pic">
-            <img src="student_3.jpg" alt="Aylin Jenkins, smiling brightly" />
+            <img src="assets/student_3.jpg" alt="Aylin Jenkins, smiling brightly" />
             <figcaption>Aylin Jenkins</figcaption>
           </figure>
           <p>
@@ -169,8 +179,8 @@
           <label for="email-field">Your email</label>
           <input type="email" name="email-field" id="email-field" />
           <label for="message-field">Your message</label>
-          <input type="text" name="message-field" id="email-field" />
-          <input type="submit" value="submit"/>
+          <input type="text" name="message-field" id="message-field" />
+          <input type="submit" value="submit" />
         </form>
       </section>
       <section class="site-map">
@@ -178,34 +188,34 @@
         <ul>
           <li><a href="home.html">Home</a></li>
           <li><a href="calendar.html">Calendar</a></li>
-          <li><a href="success_stories.html">Success stories</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="stories.html">Success stories</a></li>
+          <li><a href="about_page.html">About</a></li>
           <li><a href="contact_us.html">Contact us</a></li>
-      </ul>
+        </ul>
       </section>
       <section class="profile">
         <figure>
           <img
             class="logo"
-            src="logo.jpg"
+            src="assets/logo.jpg"
             alt="a book sitting on a cylindar as the logo of the website"
           />
           <figcaption class="slogan">Wisdom School</figcaption>
-          <address>
-            <figure>
-              <img src="phone.png" alt="a phpne number icon" />
-              <figcaption>+251 945 44 36 54</figcaption>
-            </figure>
-            <figure>
-              <img src="email.png" alt="a phpne number icon" />
-              <figcaption>wisdomSchooling@gamil.com</figcaption>
-            </figure>
-            <figure>
-              <img src="postal-code.png" alt="a phpne number icon" />
-              <figcaption>5143</figcaption>
-            </figure>
-          </address>
         </figure>
+        <address>
+          <figure>
+            <img src="assets/phone.png" alt="a phpne number icon" />
+            <figcaption>+251 945 44 36 54</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/email.png" alt="an email icon" />
+            <figcaption>wisdomSchooling@gamil.com</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/postal-code.png" alt="a zip-code icon" />
+            <figcaption>5143</figcaption>
+          </figure>
+        </address>
       </section>
       <p class="copyright">Copyright &#169; Widsom School.</p>
     </footer>

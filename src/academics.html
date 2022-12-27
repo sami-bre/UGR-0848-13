@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="This is the academics page for the Wisdom school website."
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
@@ -11,7 +15,7 @@
       <figure>
         <img
           class="logo"
-          src="logo.jpg"
+          src="assets/logo.jpg"
           alt="a book sitting on a cylindar as the logo of the website"
         />
         <figcaption class="slogan">Wisdom School</figcaption>
@@ -20,7 +24,14 @@
         <ul>
           <li><a href="home.html">Home</a></li>
           <li><a href="calendar.html">Calendar</a></li>
-          <li><div class="drop-down">Get to know us</div></li>
+          <li>
+            <div class="drop-down">Get to know us</div>
+            <ul>
+              <li><a href="about_page.html">About us</a></li>
+              <li><a href="stories.html">Success stories</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+            </ul>
+          </li>
           <li><a href="stories.html">stories</a></li>
         </ul>
       </nav>
@@ -42,7 +53,7 @@
         </nav>
       </aside>
       <div class="space"></div>
-      <section class="grade">
+      <section class="grade" id="grade_5">
         <h1>Grade 5</h1>
         <h2>Books</h2>
         <ul>
@@ -86,7 +97,7 @@
         </ul>
       </section>
       <div class="space"></div>
-      <section class="grade">
+      <section class="grade" id="grade_6">
         <h1>Grade 6</h1>
         <h2>Books</h2>
         <ul>
@@ -130,7 +141,7 @@
         </ul>
       </section>
       <div class="space"></div>
-      <section class="grade">
+      <section class="grade" id="grade_7">
         <h1>Grade 7</h1>
         <h2>Books</h2>
         <ul>
@@ -174,7 +185,7 @@
         </ul>
       </section>
       <div class="space"></div>
-      <section class="grade">
+      <section class="grade" id="grade_8">
         <h1>Grade 8</h1>
         <h2>Books</h2>
         <ul>
@@ -218,7 +229,7 @@
         </ul>
       </section>
       <div class="space"></div>
-      <section class="grade">
+      <section class="grade" id="grade_9">
         <h1>Grade 9</h1>
         <h2>Books</h2>
         <ul>
@@ -262,7 +273,7 @@
         </ul>
         <div class="space"></div>
       </section>
-      <section class="grade">
+      <section class="grade" id="grade_10">
         <h1>Grade 10</h1>
         <h2>Books</h2>
         <ul>
@@ -306,43 +317,93 @@
         </ul>
       </section>
       <div class="space"></div>
-      <section class="grade">
+      <section class="grade" id="grade_11">
         <h1>Grade 11</h1>
         <h2>Books</h2>
         <ul>
-          <li><a href="https://drive.google.com/file/d/1KNfQTOGi_wufzAPGdZIBaZXKHRyTAny_/view?usp=share_link">Biology</a></li>
-          <li><a href="https://drive.google.com/file/d/18pSpU_oGp3pdhVaZHckEIngVtzPHB4w1/view?usp=share_link">English</a></li>
-          <li><a href="https://drive.google.com/file/d/1esqc0S8_ZCgRdPSrcpM1AzkB5nh9Awqs/view?usp=share_link">Civic</a></li>
-          <li><a href="https://drive.google.com/file/d/1F7alrVTH-vPjw8ZST9xQyYcvG3mIqDU4/view?usp=share_link">ICT</a></li>
-          <li><a href="https://drive.google.com/file/d/12xE-1XKwipthYfxNo4WBKh8B6kVFP3wq/view?usp=share_link">Physics</a></li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1KNfQTOGi_wufzAPGdZIBaZXKHRyTAny_/view?usp=share_link"
+              >Biology</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/18pSpU_oGp3pdhVaZHckEIngVtzPHB4w1/view?usp=share_link"
+              >English</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1esqc0S8_ZCgRdPSrcpM1AzkB5nh9Awqs/view?usp=share_link"
+              >Civic</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1F7alrVTH-vPjw8ZST9xQyYcvG3mIqDU4/view?usp=share_link"
+              >ICT</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/12xE-1XKwipthYfxNo4WBKh8B6kVFP3wq/view?usp=share_link"
+              >Physics</a
+            >
+          </li>
         </ul>
         <h2>Assignments and homework papers</h2>
         <ul>
-            <li><a href="class_5_assignment_1.pdf">Math Assignment 1</a></li>
-            <li><a href="class_5_assignment_1.pdf">English Assignment 1</a></li>
-            <li><a href="class_5_assignment_1.pdf">Geography Homework 4</a></li>
-            <li><a href="class_5_assignment_1.pdf">PE workout 2</a></li>
+          <li><a href="class_5_assignment_1.pdf">Math Assignment 1</a></li>
+          <li><a href="class_5_assignment_1.pdf">English Assignment 1</a></li>
+          <li><a href="class_5_assignment_1.pdf">Geography Homework 4</a></li>
+          <li><a href="class_5_assignment_1.pdf">PE workout 2</a></li>
         </ul>
-        </section>
-        <div class="space"></div>
-      <section class="grade">
+      </section>
+      <div class="space"></div>
+      <section class="grade" id="grade_12">
         <h1>Grade 12</h1>
         <h2>Books</h2>
         <ul>
-          <li><a href="https://drive.google.com/file/d/1KNfQTOGi_wufzAPGdZIBaZXKHRyTAny_/view?usp=share_link">Biology</a></li>
-          <li><a href="https://drive.google.com/file/d/18pSpU_oGp3pdhVaZHckEIngVtzPHB4w1/view?usp=share_link">English</a></li>
-          <li><a href="https://drive.google.com/file/d/1esqc0S8_ZCgRdPSrcpM1AzkB5nh9Awqs/view?usp=share_link">Civic</a></li>
-          <li><a href="https://drive.google.com/file/d/1F7alrVTH-vPjw8ZST9xQyYcvG3mIqDU4/view?usp=share_link">ICT</a></li>
-          <li><a href="https://drive.google.com/file/d/12xE-1XKwipthYfxNo4WBKh8B6kVFP3wq/view?usp=share_link">Physics</a></li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1KNfQTOGi_wufzAPGdZIBaZXKHRyTAny_/view?usp=share_link"
+              >Biology</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/18pSpU_oGp3pdhVaZHckEIngVtzPHB4w1/view?usp=share_link"
+              >English</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1esqc0S8_ZCgRdPSrcpM1AzkB5nh9Awqs/view?usp=share_link"
+              >Civic</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1F7alrVTH-vPjw8ZST9xQyYcvG3mIqDU4/view?usp=share_link"
+              >ICT</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/12xE-1XKwipthYfxNo4WBKh8B6kVFP3wq/view?usp=share_link"
+              >Physics</a
+            >
+          </li>
         </ul>
         <h2>Assignments and homework papers</h2>
         <ul>
-            <li><a href="class_5_assignment_1.pdf">Math Assignment 1</a></li>
-            <li><a href="class_5_assignment_1.pdf">English Assignment 1</a></li>
-            <li><a href="class_5_assignment_1.pdf">Geography Homework 4</a></li>
-            <li><a href="class_5_assignment_1.pdf">PE workout 2</a></li>
+          <li><a href="class_5_assignment_1.pdf">Math Assignment 1</a></li>
+          <li><a href="class_5_assignment_1.pdf">English Assignment 1</a></li>
+          <li><a href="class_5_assignment_1.pdf">Geography Homework 4</a></li>
+          <li><a href="class_5_assignment_1.pdf">PE workout 2</a></li>
         </ul>
-        </section>
+      </section>
     </main>
     <div class="space"></div>
     <footer>
@@ -350,9 +411,9 @@
         <h1>Contact us</h1>
         <form action="">
           <label for="email-field">Your email</label>
-          <input type="email" name="email-field" id="email-field"/>
+          <input type="email" name="email-field" id="email-field" />
           <label for="message-field">Your message</label>
-          <input type="text" name="message-field" id="message-field"/>
+          <input type="text" name="message-field" id="message-field" />
           <input type="submit" value="submit" />
         </form>
       </section>
@@ -361,8 +422,8 @@
         <ul>
           <li><a href="home.html">Home</a></li>
           <li><a href="calendar.html">Calendar</a></li>
-          <li><a href="success_stories.html">Success stories</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="stories.html">Success stories</a></li>
+          <li><a href="about_page.html">About</a></li>
           <li><a href="contact_us.html">Contact us</a></li>
         </ul>
       </section>
@@ -370,25 +431,25 @@
         <figure>
           <img
             class="logo"
-            src="logo.jpg"
+            src="assets/logo.jpg"
             alt="a book sitting on a cylindar as the logo of the website"
           />
           <figcaption class="slogan">Wisdom School</figcaption>
-          <address>
-            <figure>
-              <img src="phone.png" alt="a phpne number icon" />
-              <figcaption>+251 945 44 36 54</figcaption>
-            </figure>
-            <figure>
-              <img src="email.png" alt="a phpne number icon" />
-              <figcaption>wisdomSchooling@gamil.com</figcaption>
-            </figure>
-            <figure>
-              <img src="postal-code.png" alt="a phpne number icon" />
-              <figcaption>5143</figcaption>
-            </figure>
-          </address>
         </figure>
+        <address>
+          <figure>
+            <img src="assets/phone.png" alt="a phpne number icon" />
+            <figcaption>+251 945 44 36 54</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/email.png" alt="an email icon" />
+            <figcaption>wisdomSchooling@gamil.com</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/postal-code.png" alt="a zip-code icon" />
+            <figcaption>5143</figcaption>
+          </figure>
+        </address>
       </section>
       <p class="copyright">Copyright &#169; Widsom School.</p>
     </footer>
