@@ -1,0 +1,171 @@
+body {
+    font-size: 130%;
+}
+
+.space {
+    padding: 1em 0em;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand__logo {
+    width: 10em;
+}
+
+.brand__slogan {
+    font-size: xx-large;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav > * {
+    background-color: aquamarine;
+}
+
+.nav__item {
+    padding: 0.8em;
+    margin: 2px;
+}
+
+.nav--hidden{
+    display: none;
+}
+
+.welcome {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.welcome__content {
+    flex: 0 1 50%;
+}
+
+.figure__image--principal {
+    width: 100%;
+}
+
+.figure--principal {
+    width: 12em;
+}
+
+
+.info {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+
+.figure--classroom {
+    width: 24em;
+}
+
+.info__content {
+    flex: 0 1 40%;
+    order: -1;
+}
+
+.figure__image--classroom {
+    width: 100%;
+}
+
+.student_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.student__figure__image {
+    width: 100%;
+}
+
+.student__figure {
+    min-width: 10em;
+}
+
+.student {
+    flex: 0 0 30%;
+    margin: 1em;
+}
+
+.stat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.stat__figure {
+    text-align: center;
+}
+
+.stat__figure th {
+    font-size: 3em;
+}
+
+.testimonial {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.testimonial__entry {
+    width: 15em;
+    padding: 1em;
+}
+
+.contact-us form > *{
+    display: block;
+}
+
+.footer__body {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.brand--footer img {
+    width: 5em;
+}
+
+.brand--footer .brand__slogan {
+    font-size: 1.2em;
+}
+
+.contact-us__label {
+    font-size: 1.2;
+}
+
+.contact-us > form > * {
+    padding: 0.4em 0.4em 0.4em 0em;
+}
+
+.contact-us > form > .contact-us__submit {
+    margin: 0.4em 0.4em 0.4em 0em;
+    padding: 0.4em;
+}
+
+.site-map > ul {
+ list-style-type: none;
+}
+
+.address__item > img {
+    clear: left;
+    float: left;
+    max-width: 2em;
+    max-height: 1.5em;
+}
+
+.address__item > figcaption {
+    display: inline;
+    padding: 0.4em;
+}
