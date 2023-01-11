@@ -8,163 +8,218 @@
     />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/main.css" />
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <figure>
+    <header class="header">
+      <figure class="brand">
         <img
-          class="logo"
+          class="brand__logo"
           src="images/logo.jpg"
           alt="a book sitting on a cylindar as the logo of the website"
         />
-        <figcaption class="slogan">Wisdom School</figcaption>
+        <figcaption class="brand__slogan">Wisdom School</figcaption>
       </figure>
-      <nav class="main-nav">
-        <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="academics.html">Academics</a></li>
-          <li><a href="calendar.html">Calendar</a></li>
-          <li>
-            <div class="drop-down">Get to know us</div>
-            <ul>
-              <li><a href="about_page.html">About us</a></li>
-              <li><a href="stories.html">Success stories</a></li>
-              <li><a href="faq.html">FAQ</a></li>
-            </ul>
-          </li>
-          <li><a href="stories.html">stories</a></li>
-        </ul>
-      </nav>
+      <ul class="nav">
+        <li class="nav__item"><a href="home.html">Home</a></li>
+        <li class="nav__item"><a href="academics.html">Academics</a></li>
+        <li class="nav__item"><a href="calendar.html">Calendar</a></li>
+        <li class="nav__item nav_item--drop-down">
+          <div class="nav__item--drop-down__label">Get to know us</div>
+          <ul class="nav nav--hidden">
+            <li class="nav__item"><a href="about_page.html">About us</a></li>
+            <li class="nav__item">
+              <a href="stories.html">Success stories</a>
+            </li>
+            <li class="nav__item"><a href="faq.html">FAQ</a></li>
+          </ul>
+        </li>
+        <li class="nav__item"><a href="stories.html">stories</a></li>
+      </ul>
     </header>
+    <div class="space"></div>
     <main>
-      <section class="about-overview">
-        <h1>About us</h1>
-        <figure>
-          <img
-            src="images/school_compound.jpg"
-            alt="the school compound at Wisdom School."
-          />
-          <figcaption>The school compound at Wisdom.</figcaption>
-        </figure>
-        <article>
-          <p>
-            Wisdom School is a community of learners including students, parents
-            and staff who are dedicated to creating an academically rigorous,
-            culturally caring and inclusive learning environment. We are
-            Reaching Excellence in Academics and Changing History! Together, we
-            are champions of knowledge, our communities, the environment and of
-            our futures. Wisdom students are goal-oriented, critical thinkers
-            and community leaders who are dedicated to achieving the highest
-            level of integrity and academic success.
-          </p>
-          <p>
-            The administration and staff are committed to providing a
-            challenging and supportive learning environment where all students
-            can succeed and reach their full potential. Every member
-            participates in cycles of continuous learning and improvement that
-            includes establishing high expectations, goal setting, planning,
-            action and reflection. We develop a culture of excellence that
-            includes a robust instructional program aligned to the Common Core
-            State Standards (CCSS) with a focus on implementing Balanced
-            Literacy through Reading and Writing Workshop, as well as by
-            building language, literacy and competency across all subject areas.
-          </p>
-        </article>
+      <section>
+        <h1 class="section__title overview__title">About us</h1>
+        <div class="overview">
+          <figure class="figure figure--compound">
+            <img
+              class="figure__image figure__image--compound"
+              src="images/school_compound.jpg"
+              alt="the school compound at Wisdom School."
+            />
+            <figcaption class="figure__caption">
+              The school compound at Wisdom.
+            </figcaption>
+          </figure>
+          <article class="overview__content">
+            <p>
+              Wisdom School is a community of learners including students,
+              parents and staff who are dedicated to creating an academically
+              rigorous, culturally caring and inclusive learning environment. We
+              are Reaching Excellence in Academics and Changing History!
+              Together, we are champions of knowledge, our communities, the
+              environment and of our futures. Wisdom students are goal-oriented,
+              critical thinkers and community leaders who are dedicated to
+              achieving the highest level of integrity and academic success.
+            </p>
+            <p>
+              The administration and staff are committed to providing a
+              challenging and supportive learning environment where all students
+              can succeed and reach their full potential. Every member
+              participates in cycles of continuous learning and improvement that
+              includes establishing high expectations, goal setting, planning,
+              action and reflection. We develop a culture of excellence that
+              includes a robust instructional program aligned to the Common Core
+              State Standards (CCSS) with a focus on implementing Balanced
+              Literacy through Reading and Writing Workshop, as well as by
+              building language, literacy and competency across all subject
+              areas.
+            </p>
+          </article>
+        </div>
       </section>
       <div class="space"></div>
       <section class="school-tour">
-        <h1>School tour</h1>
-        <video src="videos/video_file.mp4" controls></video>
+        <h1 class="section__title school-tour__title">School tour</h1>
+        <video
+          class="school-tour__video"
+          src="videos/video_file.mp4"
+          controls
+        ></video>
       </section>
-      <div class="space"></div>
-      <section class="statistics">
-        <table class="stat-table">
+      <div class="space space--large"></div>
+      <h1 class="section__title stat__title">Some statistics</h1>
+      <section class="stat">
+        <table class="stat__figure">
           <tr>
-            <th class="stat-label">Students</th>
-            <th class="stat-label">Staff</th>
-            <th class="stat-label">Campuses</th>
+            <th>1500</th>
           </tr>
           <tr>
-            <td class="stat-value">1500</td>
-            <td class="stat-value">154</td>
-            <td class="stat-value">3</td>
+            <td>Students</td>
+          </tr>
+        </table>
+        <table class="stat__figure">
+          <tr>
+            <th>154</th>
+          </tr>
+          <tr>
+            <td>Staff</td>
+          </tr>
+        </table>
+        <table class="stat__figure">
+          <tr>
+            <th>3</th>
+          </tr>
+          <tr>
+            <td>Campuses</td>
           </tr>
         </table>
       </section>
       <div class="space"></div>
+      <h1 class="section__title management__title">
+        Management staff
+      </h1>
       <section class="management">
-        <h1>Management staff</h1>
-        <figure class="person-pic">
+        <figure class="management__figure">
           <img
+            class="management__figure__image"
             src="images/school_principal.jpg"
             alt="Christopher Nolan, the school principal, smiling"
           />
-          <figcaption>Christopher Nolan, Principal.</figcaption>
+          <figcaption class="management__figure__caption">
+            Christopher Nolan, Principal.
+          </figcaption>
         </figure>
-        <figure class="person-pic">
+        <figure class="management__figure">
           <img
+            class="management__figure__image"
             src="images/vice_principal.jpg"
             alt="Brynn Mata, standing in the middle of the school corridor"
           />
-          <figcaption>Brynn Mata, Vice Principal.</figcaption>
+          <figcaption class="management__figure__caption">
+            Brynn Mata, Vice Principal.
+          </figcaption>
         </figure>
-        <figure class="person-pic">
+        <figure class="management__figure">
           <img
+            class="management__figure__image"
             src="images/superintendent.jpg"
             alt="Cassie French, at work in her office"
           />
-          <figcaption>Cassie French, superintendent</figcaption>
+          <figcaption class="management__figure__caption">
+            Cassie French, superintendent
+          </figcaption>
         </figure>
       </section>
       <div class="space"></div>
     </main>
-    <footer>
-      <section class="footer-contact-us">
-        <h1>Contact us</h1>
-        <form action="">
-          <label for="email-field">Your email</label>
-          <input type="email" name="email-field" id="email-field" />
-          <label for="message-field">Your message</label>
-          <input type="text" name="message-field" id="message-field" />
-          <input type="submit" value="submit" />
-        </form>
-      </section>
-      <section class="site-map">
-        <h1>Site-map</h1>
-        <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="calendar.html">Calendar</a></li>
-          <li><a href="stories.html">Success stories</a></li>
-          <li><a href="about_page.html">About</a></li>
-          <li><a href="contact_us.html">Contact us</a></li>
-        </ul>
-      </section>
-      <section class="profile">
-        <figure>
-          <img
-            class="logo"
-            src="images/logo.jpg"
-            alt="a book sitting on a cylindar as the logo of the website"
-          />
-          <figcaption class="slogan">Wisdom School</figcaption>
-        </figure>
-        <address>
-          <figure>
-            <img src="images/phone.png" alt="a phpne number icon" />
-            <figcaption>+251 945 44 36 54</figcaption>
+    <footer class="footer">
+      <div class="footer__body">
+        <section class="contact-us">
+          <h1>Contact us</h1>
+          <form action="">
+            <label class="contact-us__label" for="email-field"
+              >Your email</label
+            >
+            <input
+              class="contact-us__email"
+              type="email"
+              name="email-field"
+              id="email-field"
+            />
+            <label class="contact-us__label" for="message-field"
+              >Your message</label
+            >
+            <textarea
+              class="contact-us__message"
+              type="text"
+              name="message-field"
+              id="message-field"
+              cols="20"
+              rows="4"
+            ></textarea>
+            <input class="contact-us__submit" type="submit" value="submit" />
+          </form>
+        </section>
+        <section class="site-map">
+          <h1>Site-map</h1>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+            <li><a href="stories.html">Success stories</a></li>
+            <li><a href="about_page.html">About</a></li>
+            <li><a href="contact_us.html">Contact us</a></li>
+          </ul>
+        </section>
+        <section class="profile">
+          <figure class="brand brand--footer">
+            <img
+              class="brand__logo"
+              src="images/logo.jpg"
+              alt="a book sitting on a cylindar as the logo of the website"
+            />
+            <figcaption class="brand__slogan">Wisdom School</figcaption>
           </figure>
-          <figure>
-            <img src="images/email.png" alt="an email icon" />
-            <figcaption>wisdomSchooling@gamil.com</figcaption>
-          </figure>
-          <figure>
-            <img src="images/postal-code.png" alt="a zip-code icon" />
-            <figcaption>5143</figcaption>
-          </figure>
-        </address>
-      </section>
-      <p class="copyright">Copyright &#169; Widsom School.</p>
+          <address class="address">
+            <figure class="address__item">
+              <img src="images/phone.png" alt="a phpne number icon" />
+              <figcaption>+251 945 44 36 54</figcaption>
+            </figure>
+            <figure class="address__item">
+              <img src="images/email.png" alt="an email icon" />
+              <figcaption>wisdomSc@gamil.com</figcaption>
+            </figure>
+            <figure class="address__item">
+              <img src="images/postal-code.png" alt="a zip-code icon" />
+              <figcaption>5143</figcaption>
+            </figure>
+          </address>
+        </section>
+      </div>
+
+      <p class="footer__copyright">Copyright &#169; Widsom School.</p>
     </footer>
   </body>
 </html>
