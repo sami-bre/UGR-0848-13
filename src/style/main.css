@@ -230,3 +230,71 @@ body {
     font-size: 1.5em;
     padding: 0.5em;
 }
+
+.local-nav > ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.local-nav__item {
+    padding: 0.6em;
+    margin: 1em;
+    font-size: 2em;
+    border: 1px solid black;
+}
+
+/* .grade {
+    display: grid;
+    grid-template-areas: "grade_title   grade_title"
+                        "books_title    assignments_title"
+                        "books          assignments";
+}
+
+.grade__title {
+    grid-area: grade_title;
+}
+
+.books__title {
+    grid-area: books_title;
+}
+
+.assignments__title {
+    grid-area: assignments_title;
+}
+
+.books {
+    grid-area: books;
+    justify-content: center;
+}
+
+.assignments {
+    grid-area: assignments;
+} */
+
+.grade {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.books, .assignments {
+    flex: 0 1 14em;
+}
+
+.grade__title{
+    margin-left: 2em;
+}
+
+.books__title, .assignments__title {
+    text-align: center;
+}
+
+.books__list, .assignments__list {
+    list-style-type: none;
+}
+
+.grade li {
+    text-align: center;
+}

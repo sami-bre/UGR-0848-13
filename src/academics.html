@@ -8,450 +8,542 @@
     />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/main.css" />
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <figure>
+    <header class="header">
+      <figure class="brand">
         <img
-          class="logo"
+          class="brand__logo"
           src="images/logo.jpg"
           alt="a book sitting on a cylindar as the logo of the website"
         />
-        <figcaption class="slogan">Wisdom School</figcaption>
+        <figcaption class="brand__slogan">Wisdom School</figcaption>
       </figure>
-      <nav class="main-nav">
-        <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="calendar.html">Calendar</a></li>
-          <li>
-            <div class="drop-down">Get to know us</div>
-            <ul>
-              <li><a href="about_page.html">About us</a></li>
-              <li><a href="stories.html">Success stories</a></li>
-              <li><a href="faq.html">FAQ</a></li>
-            </ul>
-          </li>
-          <li><a href="stories.html">stories</a></li>
-        </ul>
-      </nav>
+      <ul class="nav">
+        <li class="nav__item"><a href="academics.html">Academics</a></li>
+        <li class="nav__item"><a href="calendar.html">Calendar</a></li>
+        <li class="nav__item nav_item--drop-down">
+          <div class="nav__item--drop-down__label">Get to know us</div>
+          <ul class="nav nav--hidden">
+            <li class="nav__item"><a href="about_page.html">About us</a></li>
+            <li class="nav__item">
+              <a href="stories.html">Success stories</a>
+            </li>
+            <li class="nav__item"><a href="faq.html">FAQ</a></li>
+          </ul>
+        </li>
+        <li class="nav__item"><a href="stories.html">stories</a></li>
+      </ul>
     </header>
     <main>
       <aside>
-        <h1>Academics</h1>
+        <h1 class="section__title">Academics</h1>
         <nav class="local-nav">
           <ul>
-            <li><a href="#grade_5">Grade 5</a></li>
-            <li><a href="#grade_6">Grade 6</a></li>
-            <li><a href="#grade_7">Grade 7</a></li>
-            <li><a href="#grade_8">Grade 8</a></li>
-            <li><a href="#grade_9">Grade 9</a></li>
-            <li><a href="#grade_10">Grade 10</a></li>
-            <li><a href="#grade_11">Grade 11</a></li>
-            <li><a href="#grade_12">Grade 12</a></li>
+            <li class="local-nav__item"><a href="#grade_5">Grade 5</a></li>
+            <li class="local-nav__item"><a href="#grade_6">Grade 6</a></li>
+            <li class="local-nav__item"><a href="#grade_7">Grade 7</a></li>
+            <li class="local-nav__item"><a href="#grade_8">Grade 8</a></li>
+            <li class="local-nav__item"><a href="#grade_9">Grade 9</a></li>
+            <li class="local-nav__item"><a href="#grade_10">Grade 10</a></li>
+            <li class="local-nav__item"><a href="#grade_11">Grade 11</a></li>
+            <li class="local-nav__item"><a href="#grade_12">Grade 12</a></li>
           </ul>
         </nav>
       </aside>
       <div class="space"></div>
-      <section class="grade" id="grade_5">
-        <h1>Grade 5</h1>
-        <h2>Books</h2>
-        <ul>
+      <h1 class="grade__title">Grade 5</h1>
+      <section class="grade grade--5">
+        <div class="books">
+          <h2 class="books__title">Books</h2>
+          <ul class="books__list">
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1KNfQTOGi_wufzAPGdZIBaZXKHRyTAny_/view?usp=share_link"
+                >Biology</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/18pSpU_oGp3pdhVaZHckEIngVtzPHB4w1/view?usp=share_link"
+                >English</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1esqc0S8_ZCgRdPSrcpM1AzkB5nh9Awqs/view?usp=share_link"
+                >Civic</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1F7alrVTH-vPjw8ZST9xQyYcvG3mIqDU4/view?usp=share_link"
+                >ICT</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/12xE-1XKwipthYfxNo4WBKh8B6kVFP3wq/view?usp=share_link"
+                >Physics</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="assignments">
+          <h2 class="assignments__title">Assignments and homework papers</h2>
+        <ul class="assignments__list">
           <li>
-            <a
-              href="https://drive.google.com/file/d/1KNfQTOGi_wufzAPGdZIBaZXKHRyTAny_/view?usp=share_link"
-              >Biology</a
-            >
+            <a href="assets/class_5_assignment_1.pdf">Math Assignment 1</a>
           </li>
           <li>
-            <a
-              href="https://drive.google.com/file/d/18pSpU_oGp3pdhVaZHckEIngVtzPHB4w1/view?usp=share_link"
-              >English</a
-            >
+            <a href="assets/class_5_assignment_1.pdf">English Assignment 1</a>
           </li>
           <li>
-            <a
-              href="https://drive.google.com/file/d/1esqc0S8_ZCgRdPSrcpM1AzkB5nh9Awqs/view?usp=share_link"
-              >Civic</a
-            >
+            <a href="assets/class_5_assignment_1.pdf">Geography Homework 4</a>
           </li>
-          <li>
-            <a
-              href="https://drive.google.com/file/d/1F7alrVTH-vPjw8ZST9xQyYcvG3mIqDU4/view?usp=share_link"
-              >ICT</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://drive.google.com/file/d/12xE-1XKwipthYfxNo4WBKh8B6kVFP3wq/view?usp=share_link"
-              >Physics</a
-            >
-          </li>
-        </ul>
-        <h2>Assignments and homework papers</h2>
-        <ul>
-          <li><a href="assets/class_5_assignment_1.pdf">Math Assignment 1</a></li>
-          <li><a href="assets/class_5_assignment_1.pdf">English Assignment 1</a></li>
-          <li><a href="assets/class_5_assignment_1.pdf">Geography Homework 4</a></li>
           <li><a href="assets/class_5_assignment_1.pdf">PE workout 2</a></li>
         </ul>
       </section>
       <div class="space"></div>
-      <section class="grade" id="grade_6">
-        <h1>Grade 6</h1>
-        <h2>Books</h2>
-        <ul>
+      <h1 class="grade__title">Grade 6</h1>
+      <section class="grade grade--6">
+        <div class="books">
+          <h2 class="books__title">Books</h2>
+          <ul class="books__list">
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1KNfQTOGi_wufzAPGdZIBaZXKHRyTAny_/view?usp=share_link"
+                >Biology</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/18pSpU_oGp3pdhVaZHckEIngVtzPHB4w1/view?usp=share_link"
+                >English</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1esqc0S8_ZCgRdPSrcpM1AzkB5nh9Awqs/view?usp=share_link"
+                >Civic</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1F7alrVTH-vPjw8ZST9xQyYcvG3mIqDU4/view?usp=share_link"
+                >ICT</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/12xE-1XKwipthYfxNo4WBKh8B6kVFP3wq/view?usp=share_link"
+                >Physics</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="assignments">
+          <h2 class="assignments__title">Assignments and homework papers</h2>
+        <ul class="assignments__list">
           <li>
-            <a
-              href="https://drive.google.com/file/d/1KNfQTOGi_wufzAPGdZIBaZXKHRyTAny_/view?usp=share_link"
-              >Biology</a
-            >
+            <a href="assets/class_5_assignment_1.pdf">Math Assignment 1</a>
           </li>
           <li>
-            <a
-              href="https://drive.google.com/file/d/18pSpU_oGp3pdhVaZHckEIngVtzPHB4w1/view?usp=share_link"
-              >English</a
-            >
+            <a href="assets/class_5_assignment_1.pdf">English Assignment 1</a>
           </li>
           <li>
-            <a
-              href="https://drive.google.com/file/d/1esqc0S8_ZCgRdPSrcpM1AzkB5nh9Awqs/view?usp=share_link"
-              >Civic</a
-            >
+            <a href="assets/class_5_assignment_1.pdf">Geography Homework 4</a>
           </li>
-          <li>
-            <a
-              href="https://drive.google.com/file/d/1F7alrVTH-vPjw8ZST9xQyYcvG3mIqDU4/view?usp=share_link"
-              >ICT</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://drive.google.com/file/d/12xE-1XKwipthYfxNo4WBKh8B6kVFP3wq/view?usp=share_link"
-              >Physics</a
-            >
-          </li>
-        </ul>
-        <h2>Assignments and homework papers</h2>
-        <ul>
-          <li><a href="assets/class_5_assignment_1.pdf">Math Assignment 1</a></li>
-          <li><a href="assets/class_5_assignment_1.pdf">English Assignment 1</a></li>
-          <li><a href="assets/class_5_assignment_1.pdf">Geography Homework 4</a></li>
           <li><a href="assets/class_5_assignment_1.pdf">PE workout 2</a></li>
         </ul>
       </section>
       <div class="space"></div>
-      <section class="grade" id="grade_7">
-        <h1>Grade 7</h1>
-        <h2>Books</h2>
-        <ul>
+      <h1 class="grade__title">Grade 7</h1>
+      <section class="grade grade--7">
+        <div class="books">
+          <h2 class="books__title">Books</h2>
+          <ul class="books__list">
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1KNfQTOGi_wufzAPGdZIBaZXKHRyTAny_/view?usp=share_link"
+                >Biology</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/18pSpU_oGp3pdhVaZHckEIngVtzPHB4w1/view?usp=share_link"
+                >English</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1esqc0S8_ZCgRdPSrcpM1AzkB5nh9Awqs/view?usp=share_link"
+                >Civic</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1F7alrVTH-vPjw8ZST9xQyYcvG3mIqDU4/view?usp=share_link"
+                >ICT</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/12xE-1XKwipthYfxNo4WBKh8B6kVFP3wq/view?usp=share_link"
+                >Physics</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="assignments">
+          <h2 class="assignments__title">Assignments and homework papers</h2>
+        <ul class="assignments__list">
           <li>
-            <a
-              href="https://drive.google.com/file/d/1KNfQTOGi_wufzAPGdZIBaZXKHRyTAny_/view?usp=share_link"
-              >Biology</a
-            >
+            <a href="assets/class_5_assignment_1.pdf">Math Assignment 1</a>
           </li>
           <li>
-            <a
-              href="https://drive.google.com/file/d/18pSpU_oGp3pdhVaZHckEIngVtzPHB4w1/view?usp=share_link"
-              >English</a
-            >
+            <a href="assets/class_5_assignment_1.pdf">English Assignment 1</a>
           </li>
           <li>
-            <a
-              href="https://drive.google.com/file/d/1esqc0S8_ZCgRdPSrcpM1AzkB5nh9Awqs/view?usp=share_link"
-              >Civic</a
-            >
+            <a href="assets/class_5_assignment_1.pdf">Geography Homework 4</a>
           </li>
-          <li>
-            <a
-              href="https://drive.google.com/file/d/1F7alrVTH-vPjw8ZST9xQyYcvG3mIqDU4/view?usp=share_link"
-              >ICT</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://drive.google.com/file/d/12xE-1XKwipthYfxNo4WBKh8B6kVFP3wq/view?usp=share_link"
-              >Physics</a
-            >
-          </li>
-        </ul>
-        <h2>Assignments and homework papers</h2>
-        <ul>
-          <li><a href="assets/class_5_assignment_1.pdf">Math Assignment 1</a></li>
-          <li><a href="assets/class_5_assignment_1.pdf">English Assignment 1</a></li>
-          <li><a href="assets/class_5_assignment_1.pdf">Geography Homework 4</a></li>
           <li><a href="assets/class_5_assignment_1.pdf">PE workout 2</a></li>
         </ul>
       </section>
       <div class="space"></div>
-      <section class="grade" id="grade_8">
-        <h1>Grade 8</h1>
-        <h2>Books</h2>
-        <ul>
+      <h1 class="grade__title">Grade 8</h1>
+      <section class="grade grade--8">
+        <div class="books">
+          <h2 class="books__title">Books</h2>
+          <ul class="books__list">
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1KNfQTOGi_wufzAPGdZIBaZXKHRyTAny_/view?usp=share_link"
+                >Biology</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/18pSpU_oGp3pdhVaZHckEIngVtzPHB4w1/view?usp=share_link"
+                >English</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1esqc0S8_ZCgRdPSrcpM1AzkB5nh9Awqs/view?usp=share_link"
+                >Civic</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1F7alrVTH-vPjw8ZST9xQyYcvG3mIqDU4/view?usp=share_link"
+                >ICT</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/12xE-1XKwipthYfxNo4WBKh8B6kVFP3wq/view?usp=share_link"
+                >Physics</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="assignments">
+          <h2 class="assignments__title">Assignments and homework papers</h2>
+        <ul class="assignments__list">
           <li>
-            <a
-              href="https://drive.google.com/file/d/1KNfQTOGi_wufzAPGdZIBaZXKHRyTAny_/view?usp=share_link"
-              >Biology</a
-            >
+            <a href="assets/class_5_assignment_1.pdf">Math Assignment 1</a>
           </li>
           <li>
-            <a
-              href="https://drive.google.com/file/d/18pSpU_oGp3pdhVaZHckEIngVtzPHB4w1/view?usp=share_link"
-              >English</a
-            >
+            <a href="assets/class_5_assignment_1.pdf">English Assignment 1</a>
           </li>
           <li>
-            <a
-              href="https://drive.google.com/file/d/1esqc0S8_ZCgRdPSrcpM1AzkB5nh9Awqs/view?usp=share_link"
-              >Civic</a
-            >
+            <a href="assets/class_5_assignment_1.pdf">Geography Homework 4</a>
           </li>
-          <li>
-            <a
-              href="https://drive.google.com/file/d/1F7alrVTH-vPjw8ZST9xQyYcvG3mIqDU4/view?usp=share_link"
-              >ICT</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://drive.google.com/file/d/12xE-1XKwipthYfxNo4WBKh8B6kVFP3wq/view?usp=share_link"
-              >Physics</a
-            >
-          </li>
-        </ul>
-        <h2>Assignments and homework papers</h2>
-        <ul>
-          <li><a href="assets/class_5_assignment_1.pdf">Math Assignment 1</a></li>
-          <li><a href="assets/class_5_assignment_1.pdf">English Assignment 1</a></li>
-          <li><a href="assets/class_5_assignment_1.pdf">Geography Homework 4</a></li>
           <li><a href="assets/class_5_assignment_1.pdf">PE workout 2</a></li>
         </ul>
       </section>
       <div class="space"></div>
-      <section class="grade" id="grade_9">
-        <h1>Grade 9</h1>
-        <h2>Books</h2>
-        <ul>
+      <h1 class="grade__title">Grade 9</h1>
+      <section class="grade grade--9">
+        <div class="books">
+          <h2 class="books__title">Books</h2>
+          <ul class="books__list">
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1KNfQTOGi_wufzAPGdZIBaZXKHRyTAny_/view?usp=share_link"
+                >Biology</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/18pSpU_oGp3pdhVaZHckEIngVtzPHB4w1/view?usp=share_link"
+                >English</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1esqc0S8_ZCgRdPSrcpM1AzkB5nh9Awqs/view?usp=share_link"
+                >Civic</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1F7alrVTH-vPjw8ZST9xQyYcvG3mIqDU4/view?usp=share_link"
+                >ICT</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/12xE-1XKwipthYfxNo4WBKh8B6kVFP3wq/view?usp=share_link"
+                >Physics</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="assignments">
+          <h2 class="assignments__title">Assignments and homework papers</h2>
+        <ul class="assignments__list">
           <li>
-            <a
-              href="https://drive.google.com/file/d/1KNfQTOGi_wufzAPGdZIBaZXKHRyTAny_/view?usp=share_link"
-              >Biology</a
-            >
+            <a href="assets/class_5_assignment_1.pdf">Math Assignment 1</a>
           </li>
           <li>
-            <a
-              href="https://drive.google.com/file/d/18pSpU_oGp3pdhVaZHckEIngVtzPHB4w1/view?usp=share_link"
-              >English</a
-            >
+            <a href="assets/class_5_assignment_1.pdf">English Assignment 1</a>
           </li>
           <li>
-            <a
-              href="https://drive.google.com/file/d/1esqc0S8_ZCgRdPSrcpM1AzkB5nh9Awqs/view?usp=share_link"
-              >Civic</a
-            >
+            <a href="assets/class_5_assignment_1.pdf">Geography Homework 4</a>
           </li>
-          <li>
-            <a
-              href="https://drive.google.com/file/d/1F7alrVTH-vPjw8ZST9xQyYcvG3mIqDU4/view?usp=share_link"
-              >ICT</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://drive.google.com/file/d/12xE-1XKwipthYfxNo4WBKh8B6kVFP3wq/view?usp=share_link"
-              >Physics</a
-            >
-          </li>
-        </ul>
-        <h2>Assignments and homework papers</h2>
-        <ul>
-          <li><a href="assets/class_5_assignment_1.pdf">Math Assignment 1</a></li>
-          <li><a href="assets/class_5_assignment_1.pdf">English Assignment 1</a></li>
-          <li><a href="assets/class_5_assignment_1.pdf">Geography Homework 4</a></li>
-          <li><a href="assets/class_5_assignment_1.pdf">PE workout 2</a></li>
-        </ul>
-        <div class="space"></div>
-      </section>
-      <section class="grade" id="grade_10">
-        <h1>Grade 10</h1>
-        <h2>Books</h2>
-        <ul>
-          <li>
-            <a
-              href="https://drive.google.com/file/d/1KNfQTOGi_wufzAPGdZIBaZXKHRyTAny_/view?usp=share_link"
-              >Biology</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://drive.google.com/file/d/18pSpU_oGp3pdhVaZHckEIngVtzPHB4w1/view?usp=share_link"
-              >English</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://drive.google.com/file/d/1esqc0S8_ZCgRdPSrcpM1AzkB5nh9Awqs/view?usp=share_link"
-              >Civic</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://drive.google.com/file/d/1F7alrVTH-vPjw8ZST9xQyYcvG3mIqDU4/view?usp=share_link"
-              >ICT</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://drive.google.com/file/d/12xE-1XKwipthYfxNo4WBKh8B6kVFP3wq/view?usp=share_link"
-              >Physics</a
-            >
-          </li>
-        </ul>
-        <h2>Assignments and homework papers</h2>
-        <ul>
-          <li><a href="assets/class_5_assignment_1.pdf">Math Assignment 1</a></li>
-          <li><a href="assets/class_5_assignment_1.pdf">English Assignment 1</a></li>
-          <li><a href="assets/class_5_assignment_1.pdf">Geography Homework 4</a></li>
           <li><a href="assets/class_5_assignment_1.pdf">PE workout 2</a></li>
         </ul>
       </section>
       <div class="space"></div>
-      <section class="grade" id="grade_11">
-        <h1>Grade 11</h1>
-        <h2>Books</h2>
-        <ul>
+      <h1 class="grade__title"> Grade 10</h1>
+      <section class="grade grade--10">
+        <div class="books">
+          <h2 class="books__title">Books</h2>
+          <ul class="books__list">
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1KNfQTOGi_wufzAPGdZIBaZXKHRyTAny_/view?usp=share_link"
+                >Biology</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/18pSpU_oGp3pdhVaZHckEIngVtzPHB4w1/view?usp=share_link"
+                >English</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1esqc0S8_ZCgRdPSrcpM1AzkB5nh9Awqs/view?usp=share_link"
+                >Civic</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1F7alrVTH-vPjw8ZST9xQyYcvG3mIqDU4/view?usp=share_link"
+                >ICT</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/12xE-1XKwipthYfxNo4WBKh8B6kVFP3wq/view?usp=share_link"
+                >Physics</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="assignments">
+          <h2 class="assignments__title">Assignments and homework papers</h2>
+        <ul class="assignments__list">
           <li>
-            <a
-              href="https://drive.google.com/file/d/1KNfQTOGi_wufzAPGdZIBaZXKHRyTAny_/view?usp=share_link"
-              >Biology</a
-            >
+            <a href="assets/class_5_assignment_1.pdf">Math Assignment 1</a>
           </li>
           <li>
-            <a
-              href="https://drive.google.com/file/d/18pSpU_oGp3pdhVaZHckEIngVtzPHB4w1/view?usp=share_link"
-              >English</a
-            >
+            <a href="assets/class_5_assignment_1.pdf">English Assignment 1</a>
           </li>
           <li>
-            <a
-              href="https://drive.google.com/file/d/1esqc0S8_ZCgRdPSrcpM1AzkB5nh9Awqs/view?usp=share_link"
-              >Civic</a
-            >
+            <a href="assets/class_5_assignment_1.pdf">Geography Homework 4</a>
           </li>
-          <li>
-            <a
-              href="https://drive.google.com/file/d/1F7alrVTH-vPjw8ZST9xQyYcvG3mIqDU4/view?usp=share_link"
-              >ICT</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://drive.google.com/file/d/12xE-1XKwipthYfxNo4WBKh8B6kVFP3wq/view?usp=share_link"
-              >Physics</a
-            >
-          </li>
-        </ul>
-        <h2>Assignments and homework papers</h2>
-        <ul>
-          <li><a href="assets/class_5_assignment_1.pdf">Math Assignment 1</a></li>
-          <li><a href="assets/class_5_assignment_1.pdf">English Assignment 1</a></li>
-          <li><a href="assets/class_5_assignment_1.pdf">Geography Homework 4</a></li>
           <li><a href="assets/class_5_assignment_1.pdf">PE workout 2</a></li>
         </ul>
       </section>
       <div class="space"></div>
-      <section class="grade" id="grade_12">
-        <h1>Grade 12</h1>
-        <h2>Books</h2>
-        <ul>
+      <h1 class="grade__title">Grade 11</h1>
+      <section class="grade grade--11">
+        <div class="books">
+          <h2 class="books__title">Books</h2>
+          <ul class="books__list">
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1KNfQTOGi_wufzAPGdZIBaZXKHRyTAny_/view?usp=share_link"
+                >Biology</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/18pSpU_oGp3pdhVaZHckEIngVtzPHB4w1/view?usp=share_link"
+                >English</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1esqc0S8_ZCgRdPSrcpM1AzkB5nh9Awqs/view?usp=share_link"
+                >Civic</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1F7alrVTH-vPjw8ZST9xQyYcvG3mIqDU4/view?usp=share_link"
+                >ICT</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/12xE-1XKwipthYfxNo4WBKh8B6kVFP3wq/view?usp=share_link"
+                >Physics</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="assignments">
+          <h2 class="assignments__title">Assignments and homework papers</h2>
+        <ul class="assignments__list">
           <li>
-            <a
-              href="https://drive.google.com/file/d/1KNfQTOGi_wufzAPGdZIBaZXKHRyTAny_/view?usp=share_link"
-              >Biology</a
-            >
+            <a href="assets/class_5_assignment_1.pdf">Math Assignment 1</a>
           </li>
           <li>
-            <a
-              href="https://drive.google.com/file/d/18pSpU_oGp3pdhVaZHckEIngVtzPHB4w1/view?usp=share_link"
-              >English</a
-            >
+            <a href="assets/class_5_assignment_1.pdf">English Assignment 1</a>
           </li>
           <li>
-            <a
-              href="https://drive.google.com/file/d/1esqc0S8_ZCgRdPSrcpM1AzkB5nh9Awqs/view?usp=share_link"
-              >Civic</a
-            >
+            <a href="assets/class_5_assignment_1.pdf">Geography Homework 4</a>
           </li>
-          <li>
-            <a
-              href="https://drive.google.com/file/d/1F7alrVTH-vPjw8ZST9xQyYcvG3mIqDU4/view?usp=share_link"
-              >ICT</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://drive.google.com/file/d/12xE-1XKwipthYfxNo4WBKh8B6kVFP3wq/view?usp=share_link"
-              >Physics</a
-            >
-          </li>
+          <li><a href="assets/class_5_assignment_1.pdf">PE workout 2</a></li>
         </ul>
-        <h2>Assignments and homework papers</h2>
-        <ul>
-          <li><a href="assets/class_5_assignment_1.pdf">Math Assignment 1</a></li>
-          <li><a href="assets/class_5_assignment_1.pdf">English Assignment 1</a></li>
-          <li><a href="assets/class_5_assignment_1.pdf">Geography Homework 4</a></li>
+      </section>
+      <div class="space"></div>
+      <h1 class="grade__title">Grade 12</h1>
+      <section class="grade grade--12">
+        <div class="books">
+          <h2 class="books__title">Books</h2>
+          <ul class="books__list">
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1KNfQTOGi_wufzAPGdZIBaZXKHRyTAny_/view?usp=share_link"
+                >Biology</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/18pSpU_oGp3pdhVaZHckEIngVtzPHB4w1/view?usp=share_link"
+                >English</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1esqc0S8_ZCgRdPSrcpM1AzkB5nh9Awqs/view?usp=share_link"
+                >Civic</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1F7alrVTH-vPjw8ZST9xQyYcvG3mIqDU4/view?usp=share_link"
+                >ICT</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/12xE-1XKwipthYfxNo4WBKh8B6kVFP3wq/view?usp=share_link"
+                >Physics</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="assignments">
+          <h2 class="assignments__title">Assignments and homework papers</h2>
+        <ul class="assignments__list">
+          <li>
+            <a href="assets/class_5_assignment_1.pdf">Math Assignment 1</a>
+          </li>
+          <li>
+            <a href="assets/class_5_assignment_1.pdf">English Assignment 1</a>
+          </li>
+          <li>
+            <a href="assets/class_5_assignment_1.pdf">Geography Homework 4</a>
+          </li>
           <li><a href="assets/class_5_assignment_1.pdf">PE workout 2</a></li>
         </ul>
       </section>
     </main>
     <div class="space"></div>
-    <footer>
-      <section class="footer-contact-us">
-        <h1>Contact us</h1>
-        <form action="">
-          <label for="email-field">Your email</label>
-          <input type="email" name="email-field" id="email-field" />
-          <label for="message-field">Your message</label>
-          <input type="text" name="message-field" id="message-field" />
-          <input type="submit" value="submit" />
-        </form>
-      </section>
-      <section class="site-map">
-        <h1>Site-map</h1>
-        <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="calendar.html">Calendar</a></li>
-          <li><a href="stories.html">Success stories</a></li>
-          <li><a href="about_page.html">About</a></li>
-          <li><a href="contact_us.html">Contact us</a></li>
-        </ul>
-      </section>
-      <section class="profile">
-        <figure>
-          <img
-            class="logo"
-            src="images/logo.jpg"
-            alt="a book sitting on a cylindar as the logo of the website"
-          />
-          <figcaption class="slogan">Wisdom School</figcaption>
-        </figure>
-        <address>
-          <figure>
-            <img src="images/phone.png" alt="a phone number icon" />
-            <figcaption>+251 945 44 36 54</figcaption>
+    <footer class="footer">
+      <div class="footer__body">
+        <section class="contact-us">
+          <h1>Contact us</h1>
+          <form action="">
+            <label class="contact-us__label" for="email-field"
+              >Your email</label
+            >
+            <input
+              class="contact-us__email"
+              type="email"
+              name="email-field"
+              id="email-field"
+            />
+            <label class="contact-us__label" for="message-field"
+              >Your message</label
+            >
+            <textarea
+              class="contact-us__message"
+              type="text"
+              name="message-field"
+              id="message-field"
+              cols="20"
+              rows="4"
+            ></textarea>
+            <input class="contact-us__submit" type="submit" value="submit" />
+          </form>
+        </section>
+        <section class="site-map">
+          <h1>Site-map</h1>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+            <li><a href="stories.html">Success stories</a></li>
+            <li><a href="about_page.html">About</a></li>
+            <li><a href="contact_us.html">Contact us</a></li>
+          </ul>
+        </section>
+        <section class="profile">
+          <figure class="brand brand--footer">
+            <img
+              class="brand__logo"
+              src="images/logo.jpg"
+              alt="a book sitting on a cylindar as the logo of the website"
+            />
+            <figcaption class="brand__slogan">Wisdom School</figcaption>
           </figure>
-          <figure>
-            <img src="images/email.png" alt="an email icon" />
-            <figcaption>wisdomSchooling@gamil.com</figcaption>
-          </figure>
-          <figure>
-            <img src="images/postal-code.png" alt="a zip-code icon" />
-            <figcaption>5143</figcaption>
-          </figure>
-        </address>
-      </section>
-      <p class="copyright">Copyright &#169; Widsom School.</p>
+          <address class="address">
+            <figure class="address__item">
+              <img src="images/phone.png" alt="a phpne number icon" />
+              <figcaption>+251 945 44 36 54</figcaption>
+            </figure>
+            <figure class="address__item">
+              <img src="images/email.png" alt="an email icon" />
+              <figcaption>wisdomSc@gamil.com</figcaption>
+            </figure>
+            <figure class="address__item">
+              <img src="images/postal-code.png" alt="a zip-code icon" />
+              <figcaption>5143</figcaption>
+            </figure>
+          </address>
+        </section>
+      </div>
+
+      <p class="footer__copyright">Copyright &#169; Widsom School.</p>
     </footer>
   </body>
 </html>
