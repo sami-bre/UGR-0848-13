@@ -8,96 +8,118 @@
     />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/main.css">
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <figure>
+    <header class="header">
+      <figure class="brand">
         <img
-          class="logo"
+          class="brand__logo"
           src="images/logo.jpg"
           alt="a book sitting on a cylindar as the logo of the website"
         />
-        <figcaption class="slogan">Wisdom School</figcaption>
+        <figcaption class="brand__slogan">Wisdom School</figcaption>
       </figure>
-      <nav class="main-nav">
-        <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="academics.html">Academics</a></li>
-          <li><a href="calendar.html">Calendar</a></li>
-          <li>
-            <div class="drop-down">Get to know us</div>
-            <ul>
-              <li><a href="about_page.html">About us</a></li>
-              <li><a href="stories.html">Success stories</a></li>
-              <li><a href="faq.html">FAQ</a></li>
-            </ul>
-          </li>
-          <li><a href="stories.html">stories</a></li>
-        </ul>
-      </nav>
+      <ul class="nav">
+        <li class="nav__item"><a href="home.html">Home</a></li>
+        <li class="nav__item"><a href="academics.html">Academics</a></li>
+        <li class="nav__item"><a href="calendar.html">Calendar</a></li>
+        <li class="nav__item nav_item--drop-down">
+          <div class="nav__item--drop-down__label">Get to know us</div>
+          <ul class="nav nav--hidden">
+            <li class="nav__item"><a href="about_page.html">About us</a></li>
+            <li class="nav__item">
+              <a href="stories.html">Success stories</a>
+            </li>
+            <li class="nav__item"><a href="faq.html">FAQ</a></li>
+          </ul>
+        </li>
+        <li class="nav__item"><a href="stories.html">stories</a></li>
+      </ul>
     </header>
     <main>
       <section class="location">
-        <h1>Contact us</h1>
-        <h2>Get us here</h2>
-        <iframe
-          class="mapview"
+        <h1 class="section__title">Contact us</h1>
+        
+        <div class="mapview">
+          <h2 class="section__title--small ">Get us here</h2>
+          <iframe
           title="A map depicting the location of Wisdom School"
           src="https://www.google.com/maps/d/embed?mid=10E_K4IsBQza9UUOO7y7sMoCxHTUe5ls&ehbc=2E312F"
           width="640"
           height="480"
         ></iframe>
+        </div>
       </section>
       <div class="space"></div>
-      <section class="email-contact-us">
-        <h1>Send us a word</h1>
+      <section class="contact-us--main">
+        <h1 class="section__title">Send us a word</h1>
         <form action="">
-          <label for="email-field">Your email</label>
-          <input type="email" name="email-field" id="email-field" />
-          <label for="message-field">Your message</label>
-          <input type="text" name="message-field" id="message-field" />
-          <input type="submit" value="submit" />
+          <label class="contact-us__label" for="email-field"
+            >Your email</label
+          >
+          <input
+            class="contact-us__email"
+            type="email"
+            name="email-field"
+            id="email-field"
+          />
+          <label class="contact-us__label" for="message-field"
+            >Your message</label
+          >
+          <textarea
+            class="contact-us__message"
+            type="text"
+            name="message-field"
+            id="message-field"
+            cols="50"
+            rows="12"
+          ></textarea>
+          <input class="contact-us__submit" type="submit" value="submit" />
         </form>
       </section>
       <div class="space"></div>
     </main>
-    <footer>
-      <section class="site-map">
-        <h1>Site-map</h1>
-        <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="calendar.html">Calendar</a></li>
-          <li><a href="stories.html">Success stories</a></li>
-          <li><a href="about_page.html">About</a></li>
-          <li><a href="contact_us.html">Contact us</a></li>
-        </ul>
-      </section>
-      <section class="profile">
-        <figure>
-          <img
-            class="logo"
-            src="images/logo.jpg"
-            alt="a book sitting on a cylindar as the logo of the website"
-          />
-          <figcaption class="slogan">Wisdom School</figcaption>
-        </figure>
-        <address>
-          <figure>
-            <img src="images/phone.png" alt="a phpne number icon" />
-            <figcaption>+251 945 44 36 54</figcaption>
+    <footer class="footer">
+      <div class="footer__body">
+        <section class="site-map">
+          <h1>Site-map</h1>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+            <li><a href="stories.html">Success stories</a></li>
+            <li><a href="about_page.html">About</a></li>
+            <li><a href="contact_us.html">Contact us</a></li>
+          </ul>
+        </section>
+        <section class="profile">
+          <figure class="brand brand--footer">
+            <img
+              class="brand__logo"
+              src="images/logo.jpg"
+              alt="a book sitting on a cylindar as the logo of the website"
+            />
+            <figcaption class="brand__slogan">Wisdom School</figcaption>
           </figure>
-          <figure>
-            <img src="images/email.png" alt="an email icon" />
-            <figcaption>wisdomSchooling@gamil.com</figcaption>
-          </figure>
-          <figure>
-            <img src="images/postal-code.png" alt="a zip-code icon" />
-            <figcaption>5143</figcaption>
-          </figure>
-        </address>
-      </section>
-      <p class="copyright">Copyright &#169; Widsom School.</p>
+          <address class="address">
+            <figure class="address__item">
+              <img src="images/phone.png" alt="a phpne number icon" />
+              <figcaption>+251 945 44 36 54</figcaption>
+            </figure>
+            <figure class="address__item">
+              <img src="images/email.png" alt="an email icon" />
+              <figcaption>wisdomSc@gamil.com</figcaption>
+            </figure>
+            <figure class="address__item">
+              <img src="images/postal-code.png" alt="a zip-code icon" />
+              <figcaption>5143</figcaption>
+            </figure>
+          </address>
+        </section>
+      </div>
+
+      <p class="footer__copyright">Copyright &#169; Widsom School.</p>
     </footer>
   </body>
 </html>

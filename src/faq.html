@@ -8,130 +8,165 @@
     />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/main.css" />
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <figure>
+    <header class="header">
+      <figure class="brand">
         <img
-          class="logo"
+          class="brand__logo"
           src="images/logo.jpg"
           alt="a book sitting on a cylindar as the logo of the website"
         />
-        <figcaption class="slogan">Wisdom School</figcaption>
+        <figcaption class="brand__slogan">Wisdom School</figcaption>
       </figure>
-      <nav class="main-nav">
-        <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="academics.html">Academics</a></li>
-          <li><a href="calendar.html">Calendar</a></li>
-          <li>
-            <div class="drop-down">Get to know us</div>
-            <ul>
-              <li><a href="about_page.html">About us</a></li>
-              <li><a href="stories.html">Success stories</a></li>
-              <li><a href="faq.html">FAQ</a></li>
-            </ul>
-          </li>
-          <li><a href="stories.html">stories</a></li>
-        </ul>
-      </nav>
+      <ul class="nav">
+        <li class="nav__item"><a href="home.html">Home</a></li>
+        <li class="nav__item"><a href="academics.html">Academics</a></li>
+        <li class="nav__item"><a href="calendar.html">Calendar</a></li>
+        <li class="nav__item nav_item--drop-down">
+          <div class="nav__item--drop-down__label">Get to know us</div>
+          <ul class="nav nav--hidden">
+            <li class="nav__item"><a href="about_page.html">About us</a></li>
+            <li class="nav__item">
+              <a href="stories.html">Success stories</a>
+            </li>
+            <li class="nav__item"><a href="faq.html">FAQ</a></li>
+          </ul>
+        </li>
+        <li class="nav__item"><a href="stories.html">stories</a></li>
+      </ul>
     </header>
     <main>
-      <h1>Frequently asked questions</h1>
-      <details>
-        <summary>What is the admission procedure?</summary>
-        <p>
-          For those seeking admissions, an informal interaction will be
-          conducted in which pupil and both the parents have to be present. The
-          final decision of the admission committee will be binding.
-        </p>
-      </details>
-      <details>
-        <summary>How many terms will the school have?</summary>
-        <p>We will be having two semesters per a school year.</p>
-      </details>
-      <details>
-        <summary>What is the fee structure?</summary>
-        <p>Please call the school for fee details.</p>
-      </details>
-      <details>
-        <summary>What will be the school timings?</summary>
-        <p>
-          School timings are: <time datetime="7:15">7:15 am</time> to
-          <time datetime="13:30">1:30 pm</time>.
-        </p>
-      </details>
-      <details>
-        <summary>
-          Will the school authorities be taking adequate measures to ensure
-          hygiene in the school?
-        </summary>
-        <p>
-          Wisdom maintains a high standard of cleanliness and hygiene. There are
-          regular checks and monitoring by the school administration as well as
-          the principal of the school.
-        </p>
-      </details>
-      <details>
-        <summary>What is the kind of security offered to the students?</summary>
-        <p>
-          The school has installed CCTV in all classrooms. Students are always
-          accompanied by teachers or the class monitors when they are moving
-          from one block to the other.
-        </p>
-      </details>
-      <details>
-        <summary>How many students will be there per division?</summary>
-        <p>We strive to maintain a ratio of 30 Students in each class.</p>
-      </details>
+      <div class="space"></div>
+      <h1 class="section__title">Frequently asked questions</h1>
+      <div class="space"></div>
+      <div class="faq_set">
+        <details class="faq">
+          <summary class="question">What is the admission procedure?</summary>
+          <p class="answer">
+            For those seeking admissions, an informal interaction will be
+            conducted in which pupil and both the parents have to be present.
+            The final decision of the admission committee will be binding.
+          </p>
+        </details>
+        <details class="faq">
+          <summary class="question">
+            How many terms will the school have?
+          </summary>
+          <p class="answer">
+            We will be having two semesters per a school year.
+          </p>
+        </details>
+        <details class="faq">
+          <summary class="question">What is the fee structure?</summary>
+          <p class="answer">Please call the school for fee details.</p>
+        </details>
+        <details class="faq">
+          <summary class="question">What will be the school timings?</summary>
+          <p class="answer">
+            School timings are: <time datetime="7:15">7:15 am</time> to
+            <time datetime="13:30">1:30 pm</time>.
+          </p>
+        </details>
+        <details class="faq">
+          <summary class="question">
+            Will the school authorities be taking adequate measures to ensure
+            hygiene in the school?
+          </summary>
+          <p class="answer">
+            Wisdom maintains a high standard of cleanliness and hygiene. There
+            are regular checks and monitoring by the school administration as
+            well as the principal of the school.
+          </p>
+        </details>
+        <details class="faq">
+          <summary class="question">
+            What is the kind of security offered to the students?
+          </summary>
+          <p class="answer">
+            The school has installed CCTV in all classrooms. Students are always
+            accompanied by teachers or the class monitors when they are moving
+            from one block to the other.
+          </p>
+        </details>
+        <details class="faq">
+          <summary class="question">
+            How many students will be there per division?
+          </summary>
+          <p class="answer">
+            We strive to maintain a ratio of 30 Students in each class.
+          </p>
+        </details>
+      </div>
     </main>
-    <footer>
-      <section class="footer-contact-us">
-        <h1>Contact us</h1>
-        <form action="">
-          <label for="email-field">Your email</label>
-          <input type="email" name="email-field" id="email-field" />
-          <label for="message-field">Your message</label>
-          <input type="text" name="message-field" id="message-field" />
-          <input type="submit" value="submit" />
-        </form>
-      </section>
-      <section class="site-map">
-        <h1>Site-map</h1>
-        <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="calendar.html">Calendar</a></li>
-          <li><a href="stories.html">Success stories</a></li>
-          <li><a href="about_page.html">About</a></li>
-          <li><a href="contact_us.html">Contact us</a></li>
-        </ul>
-      </section>
-      <section class="profile">
-        <figure>
-          <img
-            class="logo"
-            src="images/logo.jpg"
-            alt="a book sitting on a cylindar as the logo of the website"
-          />
-          <figcaption class="slogan">Wisdom School</figcaption>
-        </figure>
-        <address>
-          <figure>
-            <img src="images/phone.png" alt="a phpne number icon" />
-            <figcaption>+251 945 44 36 54</figcaption>
+    <div class="space"></div>
+    <footer class="footer">
+      <div class="footer__body">
+        <section class="contact-us">
+          <h1>Contact us</h1>
+          <form action="">
+            <label class="contact-us__label" for="email-field"
+              >Your email</label
+            >
+            <input
+              class="contact-us__email"
+              type="email"
+              name="email-field"
+              id="email-field"
+            />
+            <label class="contact-us__label" for="message-field"
+              >Your message</label
+            >
+            <textarea
+              class="contact-us__message"
+              type="text"
+              name="message-field"
+              id="message-field"
+              cols="20"
+              rows="4"
+            ></textarea>
+            <input class="contact-us__submit" type="submit" value="submit" />
+          </form>
+        </section>
+        <section class="site-map">
+          <h1>Site-map</h1>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+            <li><a href="stories.html">Success stories</a></li>
+            <li><a href="about_page.html">About</a></li>
+            <li><a href="contact_us.html">Contact us</a></li>
+          </ul>
+        </section>
+        <section class="profile">
+          <figure class="brand brand--footer">
+            <img
+              class="brand__logo"
+              src="images/logo.jpg"
+              alt="a book sitting on a cylindar as the logo of the website"
+            />
+            <figcaption class="brand__slogan">Wisdom School</figcaption>
           </figure>
-          <figure>
-            <img src="images/email.png" alt="an email icon" />
-            <figcaption>wisdomSchooling@gamil.com</figcaption>
-          </figure>
-          <figure>
-            <img src="images/postal-code.png" alt="a zip-code icon" />
-            <figcaption>5143</figcaption>
-          </figure>
-        </address>
-      </section>
-      <p class="copyright">Copyright &#169; Widsom School.</p>
+          <address class="address">
+            <figure class="address__item">
+              <img src="images/phone.png" alt="a phpne number icon" />
+              <figcaption>+251 945 44 36 54</figcaption>
+            </figure>
+            <figure class="address__item">
+              <img src="images/email.png" alt="an email icon" />
+              <figcaption>wisdomSc@gamil.com</figcaption>
+            </figure>
+            <figure class="address__item">
+              <img src="images/postal-code.png" alt="a zip-code icon" />
+              <figcaption>5143</figcaption>
+            </figure>
+          </address>
+        </section>
+      </div>
+
+      <p class="footer__copyright">Copyright &#169; Widsom School.</p>
     </footer>
   </body>
 </html>

@@ -8,196 +8,221 @@
     />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/main.css" />
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <figure>
+    <header class="header">
+      <figure class="brand">
         <img
-          class="logo"
-          src="images/logo.webp"
+          class="brand__logo"
+          src="images/logo.jpg"
           alt="a book sitting on a cylindar as the logo of the website"
         />
-        <figcaption class="slogan">Wisdom School</figcaption>
+        <figcaption class="brand__slogan">Wisdom School</figcaption>
       </figure>
-      <nav class="main-nav">
-        <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="academics.html">Academics</a></li>
-          <li><a href="calendar.html">Calendar</a></li>
-          <li>
-            <div class="drop-down">Get to know us</div>
-            <ul>
-              <li><a href="about_page.html">About us</a></li>
-              <li><a href="stories.html">Success stories</a></li>
-              <li><a href="faq.html">FAQ</a></li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
+      <ul class="nav">
+        <li class="nav__item"><a href="academics.html">Academics</a></li>
+        <li class="nav__item"><a href="calendar.html">Calendar</a></li>
+        <li class="nav__item nav_item--drop-down">
+          <div class="nav__item--drop-down__label">Get to know us</div>
+          <ul class="nav nav--hidden">
+            <li class="nav__item"><a href="about_page.html">About us</a></li>
+            <li class="nav__item">
+              <a href="stories.html">Success stories</a>
+            </li>
+            <li class="nav__item"><a href="faq.html">FAQ</a></li>
+          </ul>
+        </li>
+        <li class="nav__item"><a href="stories.html">stories</a></li>
+      </ul>
     </header>
     <main>
-      <h1>Success stories</h1>
-      <section>
-        <figure>
+      <h1 class="section__title">Success stories</h1>
+      <div class="story-grid">
+        <figure class="figure--jordan">
           <img src="images/kid_4.webp" alt="jordan, doing his homework" />
         </figure>
-        <article class="story">
-          <h2>The story of Jordan</h2>
-          <p>
-            Jordan was a student in my class during my second year of teaching.
-            He'd often refuse to complete activities because he thought they
-            were too hard, but I knew he was capable. After all, he was a
-            bright, funny, and kind student - he just lacked confidence. I made
-            it my mission to change his defeatist mindset over the course of the
-            year. I encouraged Jordan, and praised him for his hard work and
-            effort at every turn. But when he left my classroom at the end of
-            the school year, I was left questioning if I had succeeded in my
-            efforts. He had made amazing academic growth, but he still lacked
-            confidence.
-          </p>
-          <p>
-            Three years later, Jordan came down to my room to visit me. He said,
-            "Mr. Boender, you always told me to do my best, and I just want to
-            say thank you. Because of you, I am looking at becoming a teacher
-            when I grow up."
-          </p>
-        </article>
-      </section>
-      <section>
-        <figure>
-          <img src="images/kid_3.webp" alt="Clyde standing, with blurred background" />
+        <section class="story story--jordan">
+          <article class="story__content">
+            <h2 class="story__content__title">The story of Jordan</h2>
+            <p>
+              Jordan was a student in my class during my second year of
+              teaching. He'd often refuse to complete activities because he
+              thought they were too hard, but I knew he was capable. After all,
+              he was a bright, funny, and kind student - he just lacked
+              confidence. I made it my mission to change his defeatist mindset
+              over the course of the year. I encouraged Jordan, and praised him
+              for his hard work and effort at every turn. But when he left my
+              classroom at the end of the school year, I was left questioning if
+              I had succeeded in my efforts. He had made amazing academic
+              growth, but he still lacked confidence.
+            </p>
+            <p>
+              Three years later, Jordan came down to my room to visit me. He
+              said, "Mr. Boender, you always told me to do my best, and I just
+              want to say thank you. Because of you, I am looking at becoming a
+              teacher when I grow up."
+            </p>
+          </article>
+        </section>
+        <figure class="figure--clyde">
+          <img
+            src="images/kid_3.webp"
+            alt="Clyde standing, with blurred background"
+          />
         </figure>
-        <article class="story">
-          <h2>Meet Clyde</h2>
-          <p>
-            At age 17 with a learning disability, Clyde enrolled at Wisdom
-            School with a history of academic struggles and unacceptable
-            behaviors. He was often disrespectful to his teachers and peers and
-            regularly did not attend class. As a result, he fell far behind in
-            his schoolwork and became disengaged with school and was not on a
-            path leading to graduation.
-          </p>
-          <p>
-            In contrast, at Wisdom School, Clyde flourished. He was surrounded
-            by teachers who worked with him one-on-one. They created an
-            individualized education plan that prepared him for academic
-            success. Clyde felt valued and respected by his teachers in a way he
-            never had before.
-          </p>
-          <p>
-            Now, Clyde is a model student - he helps other students as a peer
-            mentor and will graduate in June.
-          </p>
-        </article>
-      </section>
-      <section>
-        <figure>
+        <section class="story story--clyde">
+          <article class="story__content">
+            <h2 class="story__content__title">Meet Clyde</h2>
+            <p>
+              At age 17 with a learning disability, Clyde enrolled at Wisdom
+              School with a history of academic struggles and unacceptable
+              behaviors. He was often disrespectful to his teachers and peers
+              and regularly did not attend class. As a result, he fell far
+              behind in his schoolwork and became disengaged with school and was
+              not on a path leading to graduation.
+            </p>
+            <p>
+              In contrast, at Wisdom School, Clyde flourished. He was surrounded
+              by teachers who worked with him one-on-one. They created an
+              individualized education plan that prepared him for academic
+              success. Clyde felt valued and respected by his teachers in a way
+              he never had before.
+            </p>
+            <p>
+              Now, Clyde is a model student - he helps other students as a peer
+              mentor and will graduate in June.
+            </p>
+          </article>
+        </section>
+        <figure class="figure--charmayne">
           <img
             src="images/kid_2.webp"
             alt="Charmayne, leaning against the school bus"
           />
         </figure>
-        <article class="story">
-          <h2>Meet Charmayne</h2>
-          <p>
-            Charmayne enrolled at Wisdom School in fourth grade. At the time,
-            her public school teachers and principals had written her off as
-            unreachable and unteachable. “If I stayed at a regular public
-            school, I would have gotten kicked out,” recalls Charmayne.
-          </p>
-          <p>
-            But everything began to change when Charmayne got to Wisdom School.
-            With a ratio of one staff member to every four students,
-            personalized one-on-one counseling, mentoring and tutoring programs,
-            and very small class sizes, Charmayne finally received the
-            attention, guidance, and nurturing she needed.
-          </p>
-          <p>
-            During her time at Wisdom, Charmayne went from being a young girl
-            angry at the world to a young woman who is an accomplished writer,
-            dancer, and student with specific goals and plans for her future.
-          </p>
-        </article>
-      </section>
-      <section>
-        <figure>
+        <section class="story story--charmayne">
+          <article class="story_content">
+            <h2>Meet Charmayne</h2>
+            <p>
+              Charmayne enrolled at Wisdom School in fourth grade. At the time,
+              her public school teachers and principals had written her off as
+              unreachable and unteachable. “If I stayed at a regular public
+              school, I would have gotten kicked out,” recalls Charmayne.
+            </p>
+            <p>
+              But everything began to change when Charmayne got to Wisdom
+              School. With a ratio of one staff member to every four students,
+              personalized one-on-one counseling, mentoring and tutoring
+              programs, and very small class sizes, Charmayne finally received
+              the attention, guidance, and nurturing she needed.
+            </p>
+            <p>
+              During her time at Wisdom, Charmayne went from being a young girl
+              angry at the world to a young woman who is an accomplished writer,
+              dancer, and student with specific goals and plans for her future.
+            </p>
+          </article>
+        </section>
+        <figure class="figure--aureona">
           <img
             src="images/kid_1.webp"
             alt="Audreona, carrying her back pack, with blurred background"
           />
         </figure>
-        <article class="story">
-          <h2>Meet Audreona</h2>
-          <p>
-            Audreona didn't fit in at her neighborhood school. She talked too
-            much, asked too many questions, and had trouble controlling her
-            impulses. As a result, her teachers decided she was a disruption and
-            her classmates teased and bullied her.
-          </p>
-          <p>
-            Everything changed for Audreona when she transferred to Wisdom
-            School. With small class sizes, special attention from teachers,
-            access to counselors, tutoring, and an enrichment program
-            second-to-none, Kayne Eras is doing what most public schools can't -
-            reaching the kids labelled "unteachable.""
-          </p>
-          <p>
-            Today, this amazing fifth grader walks the school halls with a
-            confidence and youthful exuberance that evokes a sense of hope and
-            optimism. She wants to be a scientist and work for NASA. Her
-            teachers have no doubt that the sky is the limit for this
-            exceptional young lady.
-          </p>
-        </article>
-      </section>
+        <section class="story--audreona">
+          <article class="story">
+            <h2>Meet Audreona</h2>
+            <p>
+              Audreona didn't fit in at her neighborhood school. She talked too
+              much, asked too many questions, and had trouble controlling her
+              impulses. As a result, her teachers decided she was a disruption
+              and her classmates teased and bullied her.
+            </p>
+            <p>
+              Everything changed for Audreona when she transferred to Wisdom
+              School. With small class sizes, special attention from teachers,
+              access to counselors, tutoring, and an enrichment program
+              second-to-none, Kayne Eras is doing what most public schools can't
+              - reaching the kids labelled "unteachable.""
+            </p>
+            <p>
+              Today, this amazing fifth grader walks the school halls with a
+              confidence and youthful exuberance that evokes a sense of hope and
+              optimism. She wants to be a scientist and work for NASA. Her
+              teachers have no doubt that the sky is the limit for this
+              exceptional young lady.
+            </p>
+          </article>
+        </section>
+      </div>
     </main>
-    <footer>
-      <section class="footer-contact-us">
-        <h1>Contact us</h1>
-        <form action="">
-          <label for="email-field">Your email</label>
-          <input type="email" name="email-field" id="email-field" />
-          <label for="message-field">Your message</label>
-          <input type="text" name="message-field" id="message-field" />
-          <input type="submit" value="submit" />
-        </form>
-      </section>
-      <section class="site-map">
-        <h1>Site-map</h1>
-        <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="calendar.html">Calendar</a></li>
-          <li><a href="stories.html">Success stories</a></li>
-          <li><a href="about_page.html">About</a></li>
-          <li><a href="contact_us.html">Contact us</a></li>
-        </ul>
-      </section>
-      <section class="profile">
-        <figure>
-          <img
-            class="logo"
-            src="images/logo.webp"
-            alt="a book sitting on a cylindar as the logo of the website"
-          />
-          <figcaption class="slogan">Wisdom School</figcaption>
-        </figure>
-        <address>
-          <figure>
-            <img src="images/phone.png" alt="a phpne number icon" />
-            <figcaption>+251 945 44 36 54</figcaption>
+    <footer class="footer">
+      <div class="footer__body">
+        <section class="contact-us">
+          <h1>Contact us</h1>
+          <form action="">
+            <label class="contact-us__label" for="email-field"
+              >Your email</label
+            >
+            <input
+              class="contact-us__email"
+              type="email"
+              name="email-field"
+              id="email-field"
+            />
+            <label class="contact-us__label" for="message-field"
+              >Your message</label
+            >
+            <textarea
+              class="contact-us__message"
+              type="text"
+              name="message-field"
+              id="message-field"
+              cols="20"
+              rows="4"
+            ></textarea>
+            <input class="contact-us__submit" type="submit" value="submit" />
+          </form>
+        </section>
+        <section class="site-map">
+          <h1>Site-map</h1>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+            <li><a href="stories.html">Success stories</a></li>
+            <li><a href="about_page.html">About</a></li>
+            <li><a href="contact_us.html">Contact us</a></li>
+          </ul>
+        </section>
+        <section class="profile">
+          <figure class="brand brand--footer">
+            <img
+              class="brand__logo"
+              src="images/logo.jpg"
+              alt="a book sitting on a cylindar as the logo of the website"
+            />
+            <figcaption class="brand__slogan">Wisdom School</figcaption>
           </figure>
-          <figure>
-            <img src="images/email.png" alt="an email icon" />
-            <figcaption>wisdomSchooling@gamil.com</figcaption>
-          </figure>
-          <figure>
-            <img src="images/postal-code.png" alt="a zip-code icon" />
-            <figcaption>5143</figcaption>
-          </figure>
-        </address>
-      </section>
-      <p class="copyright">Copyright &#169; Widsom School.</p>
+          <address class="address">
+            <figure class="address__item">
+              <img src="images/phone.png" alt="a phpne number icon" />
+              <figcaption>+251 945 44 36 54</figcaption>
+            </figure>
+            <figure class="address__item">
+              <img src="images/email.png" alt="an email icon" />
+              <figcaption>wisdomSc@gamil.com</figcaption>
+            </figure>
+            <figure class="address__item">
+              <img src="images/postal-code.png" alt="a zip-code icon" />
+              <figcaption>5143</figcaption>
+            </figure>
+          </address>
+        </section>
+      </div>
+
+      <p class="footer__copyright">Copyright &#169; Widsom School.</p>
     </footer>
   </body>
 </html>

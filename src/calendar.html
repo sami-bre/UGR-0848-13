@@ -8,112 +8,127 @@
     />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/main.css" />
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <figure>
+    <header class="header">
+      <figure class="brand">
         <img
-          class="logo"
+          class="brand__logo"
           src="images/logo.jpg"
           alt="a book sitting on a cylindar as the logo of the website"
         />
-        <figcaption class="slogan">Wisdom School</figcaption>
+        <figcaption class="brand__slogan">Wisdom School</figcaption>
       </figure>
-      <nav class="main-nav">
-        <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="academics.html">Academics</a></li>
-          <li>
-            <div class="drop-down">Get to know us</div>
-            <ul>
-              <li><a href="about_page.html">About us</a></li>
-              <li><a href="stories.html">Success stories</a></li>
-              <li><a href="faq.html">FAQ</a></li>
-            </ul>
-          </li>
-          <li><a href="stories.html">stories</a></li>
-        </ul>
-      </nav>
+      <ul class="nav">
+        <li class="nav__item"><a href="home.html">Home</a></li>
+        <li class="nav__item"><a href="academics.html">Academics</a></li>
+        <li class="nav__item nav_item--drop-down">
+          <div class="nav__item--drop-down__label">Get to know us</div>
+          <ul class="nav nav--hidden">
+            <li class="nav__item"><a href="about_page.html">About us</a></li>
+            <li class="nav__item">
+              <a href="stories.html">Success stories</a>
+            </li>
+            <li class="nav__item"><a href="faq.html">FAQ</a></li>
+          </ul>
+        </li>
+        <li class="nav__item"><a href="stories.html">stories</a></li>
+      </ul>
     </header>
     <main>
+      <h1 class="section__title">Calendar</h1>
+      
       <section class="calendar">
-        <h1>Calendar</h1>
-        <h2>This week</h2>
-        <table class="calendar-table" role="presentation">
-          <tr>
-            <td>Monday</td>
-            <td>Tuesday</td>
-            <td>
-              Wednesday
-              <em>Museum visit</em>
-            </td>
-          </tr>
-          <tr>
-            <td>Thursday</td>
-            <td>Friday</td>
-            <td>Saturday</td>
-          </tr>
-        </table>
-        <div class="calendar_card">
+        <h2 class="section__title--small section__title--right-indent section__title__this-week">This week</h2>
+        <div class="week_days">
+          <div class="week-days__monday">Monday</div>
+          <div class="week-days__tuesday">Tuesday</div>
+          <div class="week-days__wednesday">Wednesday</div>
+          <div class="week-days__thursday">Thursday</div>
+          <div class="week-days__friday">Friday</div>
+          <div class="week-days__saturday">Saturday</div>
+          <div class="week-days__sunday">Sunday</div>
+        </div>
+        <div class="calendar__card">
           This div will be dynamically rendered with the events associated with
           the week day (when we add some javascript)
         </div>
-        <h2>Upcoming</h2>
-        <ul>
-          <li>Summer art contest! coming up on june 5</li>
-          <li>STEM field day, coming up on june 19</li>
-          <li>Family feast! coming up on june 30</li>
-        </ul>
       </section>
+      <h2 class="section__title--small section__title--right-indent">Upcoming</h2>
+        <ul class="upcoming">
+          <li class="upcoming__item">Summer art contest! coming up on june 5</li>
+          <li class="upcoming__item">STEM field day, coming up on june 19</li>
+          <li class="upcoming__item">Family feast! coming up on june 30</li>
+        </ul>
     </main>
     <div class="space"></div>
-    <footer>
-      <section class="footer-contact-us">
-        <h1>Contact us</h1>
-        <form action="">
-          <label for="email-field">Your email</label>
-          <input type="email" name="email-field" id="email-field" />
-          <label for="message-field">Your message</label>
-          <input type="text" name="message-field" id="message-field" />
-          <input type="submit" value="submit" />
-        </form>
-      </section>
-      <section class="site-map">
-        <h1>Site-map</h1>
-        <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="calendar.html">Calendar</a></li>
-          <li><a href="stories.html">Success stories</a></li>
-          <li><a href="about_page.html">About</a></li>
-          <li><a href="contact_us.html">Contact us</a></li>
-        </ul>
-      </section>
-      <section class="profile">
-        <figure>
-          <img
-            class="logo"
-            src="images/logo.jpg"
-            alt="a book sitting on a cylindar as the logo of the website"
-          />
-          <figcaption class="slogan">Wisdom School</figcaption>
-        </figure>
-        <address>
-          <figure>
-            <img src="images/phone.png" alt="a phpne number icon" />
-            <figcaption>+251 945 44 36 54</figcaption>
+    <footer class="footer">
+      <div class="footer__body">
+        <section class="contact-us">
+          <h1>Contact us</h1>
+          <form action="">
+            <label class="contact-us__label" for="email-field"
+              >Your email</label
+            >
+            <input
+              class="contact-us__email"
+              type="email"
+              name="email-field"
+              id="email-field"
+            />
+            <label class="contact-us__label" for="message-field"
+              >Your message</label
+            >
+            <textarea
+              class="contact-us__message"
+              type="text"
+              name="message-field"
+              id="message-field"
+              cols="20"
+              rows="4"
+            ></textarea>
+            <input class="contact-us__submit" type="submit" value="submit" />
+          </form>
+        </section>
+        <section class="site-map">
+          <h1>Site-map</h1>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+            <li><a href="stories.html">Success stories</a></li>
+            <li><a href="about_page.html">About</a></li>
+            <li><a href="contact_us.html">Contact us</a></li>
+          </ul>
+        </section>
+        <section class="profile">
+          <figure class="brand brand--footer">
+            <img
+              class="brand__logo"
+              src="images/logo.jpg"
+              alt="a book sitting on a cylindar as the logo of the website"
+            />
+            <figcaption class="brand__slogan">Wisdom School</figcaption>
           </figure>
-          <figure>
-            <img src="images/email.png" alt="an email icon" />
-            <figcaption>wisdomSchooling@gamil.com</figcaption>
-          </figure>
-          <figure>
-            <img src="images/postal-code.png" alt="a zip-code icon" />
-            <figcaption>5143</figcaption>
-          </figure>
-        </address>
-      </section>
-      <p class="copyright">Copyright &#169; Widsom School.</p>
+          <address class="address">
+            <figure class="address__item">
+              <img src="images/phone.png" alt="a phpne number icon" />
+              <figcaption>+251 945 44 36 54</figcaption>
+            </figure>
+            <figure class="address__item">
+              <img src="images/email.png" alt="an email icon" />
+              <figcaption>wisdomSc@gamil.com</figcaption>
+            </figure>
+            <figure class="address__item">
+              <img src="images/postal-code.png" alt="a zip-code icon" />
+              <figcaption>5143</figcaption>
+            </figure>
+          </address>
+        </section>
+      </div>
+
+      <p class="footer__copyright">Copyright &#169; Widsom School.</p>
     </footer>
   </body>
 </html>
