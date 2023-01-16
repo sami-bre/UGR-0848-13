@@ -629,6 +629,7 @@ footer {
   padding: 1em;
   margin: auto;
   background-color: #000435;
+  min-height: 14em;
 }
 
 @media screen and (max-width: 400px) {
@@ -673,4 +674,16 @@ footer {
 
 .answer {
   font-size: 120%;
+}
+
+.header, {
+  font-family: 'Trebuchet MS', 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif
+}
+
+img {
+  border-radius: 1em;
+}
+
+.active-day {
+  background-color: #ff5722;
 }
