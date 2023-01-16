@@ -39,7 +39,15 @@ body {
 .nav__item {
   padding: 0.8em;
   margin: 2px;
+  font-size: 120%;
 }
+
+@media screen and (max-width: 660px) {
+  .nav__item {
+    font-size: 100%;
+  }
+}
+
 
 .nav--hidden {
   display: none;
