@@ -33,7 +33,30 @@ body {
 }
 
 .nav > * {
-  background-color: aquamarine;
+  background-color: #000864;
+  color: white;
+  border-radius: 0.2em;
+}
+
+.nav > *:hover {
+  background-color: #ff5722;
+}
+
+.contact-us__submit {
+  background-color: #ff5722;
+  border: none;
+  font-size: 100%;
+  border-radius: 0.3em;
+}
+
+.contact-us__submit:hover {
+  background-color: #c41c00;
+  color: white;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
 }
 
 .nav__item {
@@ -530,9 +553,36 @@ body {
 }
 
 .footer .error {
+  color: rgb(255, 181, 181);
   padding: 0;
 }
 
 .header figcaption {
   font-size: 2em;
+}
+
+.footer {
+  background-color: #00042c;
+  color: white;
+}
+
+.footer a {
+  color: white;
+}
+
+body {
+  background-image: url("../images/background_3.jpg");
+  background-size: 600px 600px;
+  background-repeat: repeat;
+  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.96);
+  margin: 0px;
+}
+
+/* this removes the margins of the body at
+ the top and bottom */
+header {
+  border: 1px transparent solid;
+}
+footer {
+  border: 1px transparent solid;
 }
