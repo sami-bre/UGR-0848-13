@@ -284,9 +284,24 @@ body {
 .local-nav__item {
   padding: 0.6em;
   margin: 1em;
-  font-size: 2em;
-  border: 1px solid black;
+  font-size: 130%;
+  border-radius: 0.2em;
+  background-color: #ff8a50;
 }
+
+.local-nav__item a {
+  text-decoration: none;
+  color: #000435;
+}
+
+.local-nav__item:hover {
+  background-color: #000435;
+  color: white;
+}
+
+.local-nav__item:hover a {
+  color: white;
+} 
 
 .grade {
   display: flex;
@@ -326,7 +341,7 @@ body {
     "week-days      calendar-card";
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 760px) {
   .calendar {
     grid-template-areas:
       "title"
@@ -345,15 +360,25 @@ body {
   flex-wrap: wrap;
 }
 
-.week_days > div {
-  padding: 1em;
-  margin: 0.4em;
+.week__day {
+  padding: 0.5em;
+  margin: 0.2em auto;
+  width: 10em;
+  text-align: center;
+  font-size: 130%;
   border: 1px solid black;
+  border-radius: 0.2em;
+  background-color: #000864;
+  color: white;
 }
+
+.week__day:hover {
+  background-color: #ff5722;
+}
+
 
 .calendar__card {
   grid-area: calendar-card;
-  border: 1px solid black;
   padding: 4em 0em;
 }
 
@@ -367,7 +392,7 @@ body {
 .upcoming__item {
   padding: 0.4em;
   margin: 0.1em;
-  border: 1px solid black;
+  font-size: 140%;
 }
 
 .mapview {
@@ -585,4 +610,67 @@ header {
 }
 footer {
   border: 1px transparent solid;
+}
+
+.site-map a {
+  display: block;
+  padding: 0.1em;
+}
+
+.site-map a:hover {
+  color: rgb(255, 115, 34);
+}
+
+.card-display {
+  width: 300px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 0.5em;
+  padding: 1em;
+  margin: auto;
+  background-color: #000435;
+}
+
+@media screen and (max-width: 400px) {
+  .card-display {
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 1090px) {
+  .card-display {
+    width: 460px;
+  }
+}
+
+.books__list li a,
+.assignments__list li a {
+  display: block;
+  background-color: rgb(39, 39, 39);
+  color: white;
+  text-decoration: none;
+  margin: 0.3em;
+  padding: 0.4em;
+  font-size: 120%;
+  border-radius: 0.2em;
+}
+
+.books__list li a:hover,
+.assignments__list li a:hover {
+  position: relative;
+  top: -4px;
+  left: -4px;
+  box-shadow: 4px 4px black;
+} 
+
+.question {
+  font-size: 150%;
+}
+
+.question:hover {
+  text-decoration: underline;
+}
+
+.answer {
+  font-size: 120%;
 }

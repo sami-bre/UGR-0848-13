@@ -43,18 +43,23 @@
       
       <section class="calendar">
         <h2 class="section__title--small section__title--right-indent section__title__this-week">This week</h2>
-        <div class="week_days">
-          <div class="week-days__monday">Monday</div>
-          <div class="week-days__tuesday">Tuesday</div>
-          <div class="week-days__wednesday">Wednesday</div>
-          <div class="week-days__thursday">Thursday</div>
-          <div class="week-days__friday">Friday</div>
-          <div class="week-days__saturday">Saturday</div>
-          <div class="week-days__sunday">Sunday</div>
+        <div class="week">
+          <div class="week__day">Monday</div>
+          <div class="week__day">Tuesday</div>
+          <div class="week__day">Wednesday</div>
+          <div class="week__day">Thursday</div>
+          <div class="week__day">Friday</div>
+          <div class="week__day">Saturday</div>
+          <div class="week__day">Sunday</div>
         </div>
         <div class="calendar__card">
-          This div will be dynamically rendered with the events associated with
+          <div class="card-display">
+            <h1 class="card-day">Monday</h1>
+            <h2 class="event-title">No events</h2>
+            <p class="event-detail">No events for Monday</p>
+            This div will be dynamically rendered with the events associated with
           the week day (when we add some javascript)
+          </div>
         </div>
       </section>
       <h2 class="section__title--small section__title--right-indent">Upcoming</h2>
