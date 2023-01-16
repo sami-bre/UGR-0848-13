@@ -151,8 +151,23 @@ body {
   font-size: 1.2em;
 }
 
-.contact-us__label {
-  font-size: 1.2;
+.contact-us__email {
+  border-radius: 0.3em;
+  font-size: 90%;
+}
+
+.contact-us__message {
+  font-size: 90%;
+}
+
+.contact-us--main .contact-us__email {
+  font-size: 120%;
+}
+
+.contact-us__message {
+  font-size: 110%;
+  border-radius: 0.4em;
+  padding: 1em;
 }
 
 .contact-us > form > * {
@@ -476,18 +491,44 @@ body {
 }
 
 .contact-us--main .contact-us__message {
-  width: 50em;
+  width: 36em;
   height: 20em;
 }
 
 @media screen and (max-width: 700px) {
   .contact-us--main .contact-us__message {
-    width: 35em;
+    width: 28em;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 556px) {
   .contact-us--main .contact-us__message {
-    width: 24em;
+    width: 18em;
   }
+}
+
+.error {
+  color: rgb(207, 47, 47);
+}
+
+.contact-us--main .error__message {
+  display: block;
+  border: 1px solid rgb(207, 47, 47);
+  border-radius: 0.2em;
+  margin: 0.1em;
+  padding: 0.4em 1em;
+  font-size: 124%;
+}
+
+.error__message {
+  display: block;
+  border: 1px solid rgb(207, 47, 47);
+  border-radius: 0.2em;
+  margin: 0.1em;
+  padding: 0.2em 0.5em;
+  font-size: 100%;
+}
+
+.footer .error {
+  padding: 0;
 }
