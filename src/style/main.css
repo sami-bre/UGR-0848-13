@@ -532,3 +532,7 @@ body {
 .footer .error {
   padding: 0;
 }
+
+.header figcaption {
+  font-size: 2em;
+}
