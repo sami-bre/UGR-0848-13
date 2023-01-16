@@ -48,7 +48,6 @@ body {
   }
 }
 
-
 .nav--hidden {
   display: none;
 }
@@ -282,7 +281,7 @@ body {
 }
 
 .calendar {
-    padding: 0em 1.2em;
+  padding: 0em 1.2em;
   display: grid;
   grid-template-areas:
     "title     title"
@@ -321,93 +320,99 @@ body {
 }
 
 .upcoming {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  align-items: flex-start;
 }
 
 .upcoming__item {
-    padding: 0.4em;
-    margin: 0.1em;
-    border: 1px solid black;
-
+  padding: 0.4em;
+  margin: 0.1em;
+  border: 1px solid black;
 }
 
 .mapview {
-    display: flex;
-    margin: auto;
-    width: 90%;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  margin: auto;
+  width: 90%;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .mapview > iframe {
-    width: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 810px) {
+  .mapview > iframe {
+    height: 40em;
+  }
 }
 
 .contact-us--main > form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-us--main label {
-    font-size: 1.4em;
-    margin: 0.2em;
+  font-size: 1.4em;
+  margin: 0.2em;
 }
 
 .contact-us--main input {
-    padding: 0.5em;
+  padding: 0.5em;
 }
 
 .contact-us--main text-area {
-    padding: 2em;
+  padding: 2em;
 }
 
-.contact-us--main input[type="submit"]{
-    padding: 1em;
-    margin: 0.5em;
+.contact-us--main input[type="submit"] {
+  padding: 1em;
+  margin: 0.5em;
 }
 
 .faq_set {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
 }
 
 @media screen and (max-width: 570px) {
-    .faq_set {
-        width: 90%;
-    }
+  .faq_set {
+    width: 90%;
+  }
 }
 
 .faq {
-    flex: 0 0 49%;
+  flex: 0 0 49%;
 }
 
 .story-grid {
-    display: grid;
-    padding: 2em;
-    grid-template-areas: "figure-jordan     story-jordan"
-                        "story-clyde        figure-clyde"
-                        "figure-charmayne   story-charmine"
-                        "story-audreona     figure-audreona";
+  display: grid;
+  padding: 2em;
+  grid-template-areas:
+    "figure-jordan     story-jordan"
+    "story-clyde        figure-clyde"
+    "figure-charmayne   story-charmine"
+    "story-audreona     figure-audreona";
 }
 
 @media screen and (max-width: 1254px) {
-    .story-grid {
-        grid-template-areas: 
-        "figure-jordan"
-        "story-jordan"
-        "figure-clyde"
-        "story-clyde"
-        "figure-charmayne"
-        "story-charmine"
-        "figure-audreona"
-        "story-audreona";
-    }
+  .story-grid {
+    grid-template-areas:
+      "figure-jordan"
+      "story-jordan"
+      "figure-clyde"
+      "story-clyde"
+      "figure-charmayne"
+      "story-charmine"
+      "figure-audreona"
+      "story-audreona";
+  }
 }
 
 .story-grid figure img {
@@ -415,37 +420,36 @@ body {
   max-height: 100%;
 }
 
-
 .figure--jordan {
-    grid-area: figure-jordan;
+  grid-area: figure-jordan;
 }
 
 .story--jordan {
-    grid-area: story-jordan;
+  grid-area: story-jordan;
 }
 
 .figure--clyde {
-    grid-area: figure-clyde;
+  grid-area: figure-clyde;
 }
 
 .story--clyde {
-    grid-area: story-clyde;
+  grid-area: story-clyde;
 }
 
 .figure--charmayne {
-    grid-area: figure-charmayne;
+  grid-area: figure-charmayne;
 }
 
 .story--charmyne {
-    grid-area: story-charmayne;
+  grid-area: story-charmayne;
 }
 
 .figure--audreona {
-    grid-area: figure-audreona;
+  grid-area: figure-audreona;
 }
 
 .story--audreona {
-    grid-area: story-audreona;
+  grid-area: story-audreona;
 }
 
 .nav__item--drop-down {
@@ -469,4 +473,21 @@ body {
 
 .nav__item--drop-down:hover .nav--hidden {
   display: block;
+}
+
+.contact-us--main .contact-us__message {
+  width: 50em;
+  height: 20em;
+}
+
+@media screen and (max-width: 700px) {
+  .contact-us--main .contact-us__message {
+    width: 35em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact-us--main .contact-us__message {
+    width: 24em;
+  }
 }
