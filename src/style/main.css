@@ -444,3 +444,25 @@ body {
     grid-area: story-audreona;
 }
 
+.nav__item--drop-down {
+  position: relative;
+  display: inline-block;
+  z-index: 10;
+}
+
+.nav--hidden {
+  display: none;
+  position: absolute;
+  left: 0%;
+  top: 100%;
+  min-width: 8em;
+  z-index: 10;
+}
+
+.nav--hidden .nav__item {
+  font-size: 100%;
+}
+
+.nav__item--drop-down:hover .nav--hidden {
+  display: block;
+}
