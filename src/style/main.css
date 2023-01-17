@@ -108,6 +108,22 @@ body {
   order: -1;
 }
 
+@media screen and (max-width: 1020px) {
+  .info__content {
+    flex: 0 1 80%;
+  }
+}
+
+.home-main-display {
+  padding: 2em;
+}
+
+@media screen and (max-width: 490px) {
+  .home-main-display {
+    padding: 1em;
+  }
+}
+
 .figure__image--classroom {
   width: 100%;
 }
@@ -301,7 +317,7 @@ body {
 
 .local-nav__item:hover a {
   color: white;
-} 
+}
 
 .grade {
   display: flex;
@@ -375,7 +391,6 @@ body {
 .week__day:hover {
   background-color: #ff5722;
 }
-
 
 .calendar__card {
   grid-area: calendar-card;
@@ -457,11 +472,15 @@ body {
 .story-grid {
   display: grid;
   padding: 2em;
+  width: 74%;
+  background-color: rgba(255, 255, 255, 0.96);
+  margin: auto;
   grid-template-areas:
     "figure-jordan     story-jordan"
     "story-clyde        figure-clyde"
     "figure-charmayne   story-charmine"
     "story-audreona     figure-audreona";
+  grid-template-columns: 1fr 1fr;
 }
 
 @media screen and (max-width: 1254px) {
@@ -475,6 +494,8 @@ body {
       "story-charmine"
       "figure-audreona"
       "story-audreona";
+
+    grid-template-columns: 1fr;
   }
 }
 
@@ -662,7 +683,7 @@ footer {
   top: -4px;
   left: -4px;
   box-shadow: 4px 4px black;
-} 
+}
 
 .question {
   font-size: 150%;
@@ -676,8 +697,8 @@ footer {
   font-size: 120%;
 }
 
-.header, {
-  font-family: 'Trebuchet MS', 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif
+.header {
+  font-family: "Trebuchet MS", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 
 img {
@@ -686,4 +707,14 @@ img {
 
 .active-day {
   background-color: #ff5722;
+}
+
+.story article {
+  column-count: 2;
+}
+
+@media screen and (max-width: 620px) {
+  .story article {
+    column-count: 1;
+  }
 }
