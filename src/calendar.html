@@ -2,10 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="description"
-      content="This is the calendar page for the Wisdom school website."
-    />
+    <meta name="description" content="This is the calendar page for the Wisdom school website." />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <link rel="stylesheet" href="style/main.css" /> -->
@@ -43,7 +40,7 @@
     </header>
     <main>
       <h1 class="section__title">Calendar</h1>
-      
+
       <section class="calendar">
         <h2 class="section__title--small section__title--right-indent section__title__this-week">This week</h2>
         <div class="week">
@@ -64,81 +61,78 @@
         </div>
       </section>
       <h2 class="section__title--small section__title--right-indent">Upcoming</h2>
-        <ul class="upcoming">
-          <li class="upcoming__item">Summer art contest! coming up on june 5</li>
-          <li class="upcoming__item">STEM field day, coming up on june 19</li>
-          <li class="upcoming__item">Family feast! coming up on june 30</li>
-        </ul>
+      <ul class="upcoming">
+        <li class="upcoming__item">Summer art contest! coming up on june 5</li>
+        <li class="upcoming__item">STEM field day, coming up on june 19</li>
+        <li class="upcoming__item">Family feast! coming up on june 30</li>
+      </ul>
     </main>
     <div class="space"></div>
-    <footer class="footer">
-      <div class="footer__body">
-        <section class="contact-us">
-          <h1>Contact us</h1>
+    <footer class="pb-0 bg-dark">
+      <div class="row d-flex justify-content-around text-white">
+        <div class="col-md-3 my-5">
+          <h5>Contact us</h5>
           <form id="form">
             <div id="error" class="error error--footer"></div>
-            <label class="contact-us__label" for="email-field"
-              >Your email</label
-            >
-            <input
-            id="email-field"
-              class="contact-us__email"
-              type="text"
-              name="email-field"
-            />
-            <label class="contact-us__label" for="message-field"
-              >Your message</label
-            >
-            <textarea
-            id="message-field"
-              class="contact-us__message"
-              type="text"
-              name="message-field"
-              cols="22"
-              rows="4"
-            ></textarea>
-            <input class="contact-us__submit" type="submit" value="Submit" />
+            <div class="d-flex flex-column w-100 gap-2">
+              <label class="contact-us__label visually-hidden" for="message-field">Your message</label>
+              <textarea
+                id="message-field"
+                class="form-control"
+                type="text"
+                name="message-field"
+                cols="22"
+                rows="4"
+                placeholder="Your message"
+              ></textarea>
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <div class="d-flex flex-column flex-sm-row gap-2">
+                <label class="contact-us__label visually-hidden" for="email-field">Your email</label>
+                <input id="email-field" name="email-field" type="text" class="form-control" placeholder="Email address" />
+                <button class="btn btn-primary" type="submit">Submit</button>
+              </div>
+            </div>
           </form>
-        </section>
-        <section class="site-map">
-          <h1>Site-map</h1>
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="academics.html">Academics</a></li>
-            <li><a href="calendar.html">Calendar</a></li>
-            <li><a href="stories.html">Success stories</a></li>
-            <li><a href="about_page.html">About</a></li>
-            <li><a href="contact_us.html">Contact us</a></li>
-            <li><a href="faq.html">FAQ</a></li>
+        </div>
+
+        <div class="col-6 col-md-2 my-5">
+          <h5>Site map</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link p-0" href="../index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link p-0" href="academics.html">Academics</a></li>
+            <li class="nav-item"><a class="nav-link p-0" href="calendar.html">Calendar</a></li>
+            <li class="nav-item"><a class="nav-link p-0" href="stories.html">Success stories</a></li>
+            <li class="nav-item"><a class="nav-link p-0" href="about_page.html">About</a></li>
+            <li class="nav-item"><a class="nav-link p-0" href="contact_us.html">Contact us</a></li>
+            <li class="nav-item"><a class="nav-link p-0" href="faq.html">FAQ</a></li>
           </ul>
-        </section>
-        <section class="profile">
-          <figure class="brand brand--footer">
-            <img
-              class="brand__logo"
-              src="images/logo.png"
-              alt="a book sitting on a cylindar as the logo of the website"
-            />
-            <figcaption class="brand__slogan">Wisdom School</figcaption>
+        </div>
+
+        <div class="nav flex-column col-6 col-md-2 my-5">
+          <figure class="d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto text-decoration-none">
+            <img class="brand__logo logo--small" src="images/logo.png" alt="a book sitting on a cylindar as the logo of the website" />
+            <figcaption class="brand__slogan"><h5>Wisdom School</h5></figcaption>
           </figure>
-          <address class="address">
-            <figure class="address__item">
+          <address class="address mt-4 small">
+            <figure class="address__item d-flex align-items-center">
               <img src="images/phone.png" alt="a phpne number icon" />
-              <figcaption>+251 945 44 36 54</figcaption>
+              <figcaption class="mx-2">+251 945 44 36 54</figcaption>
             </figure>
-            <figure class="address__item">
+            <figure class="address__item d-flex align-items-center">
               <img src="images/email.png" alt="an email icon" />
-              <figcaption>wisdomSc@gamil.com</figcaption>
+              <figcaption class="mx-2">wisdomSc@gamil.com</figcaption>
             </figure>
-            <figure class="address__item">
+            <figure class="address__item d-flex align-items-center">
               <img src="images/postal-code.png" alt="a zip-code icon" />
-              <figcaption>5143</figcaption>
+              <figcaption class="mx-2">5143</figcaption>
             </figure>
           </address>
-        </section>
+        </div>
       </div>
 
-      <p class="footer__copyright">Copyright &#169; Widsom School.</p>
+      <div class="d-flex flex-row justify-content-center py-4 my-4 border-top">
+        <p class="text-light">© Wisdom school. All rights reserved.</p>
+      </div>
     </footer>
   </body>
 </html>

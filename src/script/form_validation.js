@@ -35,7 +35,7 @@ function main() {
     if (error_messages.length > 0) {
       e.preventDefault();
       for(const message of error_messages) {
-        error_div.innerHTML += `<span class="error__message">${message}</span>`
+        error_div.innerHTML += `<span class="text-danger d-block m-1">${message}</span>`
       }
     }
   });
