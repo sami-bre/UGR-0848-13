@@ -8,34 +8,36 @@
     />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style/main.css" />
+    <!-- <link rel="stylesheet" href="style/main.css" /> -->
     <script defer src="script/form_validation.js"></script>
+    <link rel="stylesheet" href="/src/bootstrap_5.3.0/css/bootstrap.css" />
+    <script src="/src/bootstrap_5.3.0/js/bootstrap.bundle.js"></script>
     <title>Wisdom School</title>
   </head>
   <body>
-    <header class="header">
-      <figure class="brand">
-        <img
-          class="brand__logo"
-          src="images/logo.png"
-          alt="a book sitting on a cylindar as the logo of the website"
-        />
-        <figcaption class="brand__slogan">Wisdom School</figcaption>
-      </figure>
-      <ul class="nav">
-        <li class="nav__item"><a href="../index.html">Home</a></li>
-        <li class="nav__item"><a href="calendar.html">Calendar</a></li>
-        <li class="nav__item nav__item--drop-down">
-          <div class="nav__item--drop-down__label">Get to know us</div>
-          <ul class="nav nav--hidden">
-            <li class="nav__item"><a href="about_page.html">About us</a></li>
-            <li class="nav__item">
-              <a href="contact_us.html">Contact us</a>
-            </li>
-            <li class="nav__item"><a href="faq.html">FAQ</a></li>
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <img class="bi me-2 main-logo" src="images/logo.png" alt="a book sitting on a cylindar as the logo of the website" />
+        <span class="display-5">Wisdom School</span>
+      </a>
+
+      <ul class="nav nav-pills m-4 d-flex flex-wrap justify-content-center">
+        <li class="nav-item">
+          <a href="../index.html" class="nav-link" aria-current="page">Home</a>
+        </li>
+        <li class="nav-item"><a href="academics.html" class="nav-link active">Academics</a></li>
+        <li class="nav-item"><a href="src/calendar.html" class="nav-link">Calendar</a></li>
+        <li class="dropdown">
+          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Get to know us
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="about_page.html">About</a></li>
+            <li><a class="dropdown-item" href="contact_us.html">Contact us</a></li>
+            <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
           </ul>
         </li>
-        <li class="nav__item"><a href="stories.html">stories</a></li>
+        <li class="nav-item"><a href="stories.html" class="nav-link">Stories</a></li>
       </ul>
     </header>
     <main>
