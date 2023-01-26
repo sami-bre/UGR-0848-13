@@ -11816,3 +11816,17 @@ textarea.form-control-lg {
 .testimonial blockquote {
   max-width: 20em;
 }
+
+.figure__image--compound {
+  min-width: 20em;
+}
+
+@media screen and (min-width: 416px) {
+  .overview__content {
+    column-count: 2;
+  }
+}
+
+.management__image {
+  max-width: 16em;
+}

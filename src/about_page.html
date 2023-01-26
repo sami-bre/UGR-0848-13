@@ -2,10 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="description"
-      content="This is the about page for the Wisdom school website."
-    />
+    <meta name="description" content="This is the about page for the Wisdom school website." />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <link rel="stylesheet" href="style/main.css" /> -->
@@ -15,7 +12,7 @@
     <title>Wisdom School</title>
   </head>
   <body>
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom container">
       <a href="/" class="d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
         <img class="bi me-2 main-logo" src="images/logo.png" alt="a book sitting on a cylindar as the logo of the website" />
         <span class="display-5">Wisdom School</span>
@@ -41,118 +38,78 @@
       </ul>
     </header>
     <div class="space"></div>
-    <main>
+    <main class="container">
       <section>
-        <h1 class="section__title overview__title">About us</h1>
-        <div class="overview">
-          <figure class="figure figure--compound">
-            <img
-              class="figure__image figure__image--compound"
-              src="images/school_compound.jpg"
-              alt="the school compound at Wisdom School."
-            />
-            <figcaption class="figure__caption">
-              The school compound at Wisdom.
-            </figcaption>
+        <h1 class="section__title overview__title text-center py-5">About us</h1>
+        <div class="overview row">
+          <figure class="figure figure--compound col">
+            <img class="figure__image figure__image--compound container" src="images/school_compound.jpg" alt="the school compound at Wisdom School." />
+            <figcaption class="figure__caption">The school compound at Wisdom.</figcaption>
           </figure>
-          <article class="overview__content">
+          <article class="overview__content col text-columns-2">
             <p>
-              Wisdom School is a community of learners including students,
-              parents and staff who are dedicated to creating an academically
-              rigorous, culturally caring and inclusive learning environment. We
-              are Reaching Excellence in Academics and Changing History!
-              Together, we are champions of knowledge, our communities, the
-              environment and of our futures. Wisdom students are goal-oriented,
-              critical thinkers and community leaders who are dedicated to
-              achieving the highest level of integrity and academic success.
+              Wisdom School is a community of learners including students, parents and staff who are dedicated to creating an academically rigorous,
+              culturally caring and inclusive learning environment. We are Reaching Excellence in Academics and Changing History! Together, we are
+              champions of knowledge, our communities, the environment and of our futures. Wisdom students are goal-oriented, critical thinkers and
+              community leaders who are dedicated to achieving the highest level of integrity and academic success.
             </p>
             <p>
-              The administration and staff are committed to providing a
-              challenging and supportive learning environment where all students
-              can succeed and reach their full potential. Every member
-              participates in cycles of continuous learning and improvement that
-              includes establishing high expectations, goal setting, planning,
-              action and reflection. We develop a culture of excellence that
-              includes a robust instructional program aligned to the Common Core
-              State Standards (CCSS) with a focus on implementing Balanced
-              Literacy through Reading and Writing Workshop, as well as by
-              building language, literacy and competency across all subject
-              areas.
+              The administration and staff are committed to providing a challenging and supportive learning environment where all students can succeed
+              and reach their full potential. Every member participates in cycles of continuous learning and improvement that includes establishing
+              high expectations, goal setting, planning, action and reflection. We develop a culture of excellence that includes a robust
+              instructional program aligned to the Common Core State Standards (CCSS) with a focus on implementing Balanced Literacy through Reading
+              and Writing Workshop, as well as by building language, literacy and competency across all subject areas.
             </p>
           </article>
         </div>
       </section>
-      <div class="space"></div>
+      <div class="py-4"></div>
       <section class="school-tour">
-        <h1 class="section__title school-tour__title">School tour</h1>
-        <video
-          class="school-tour__video"
-          src="videos/video_file.mp4"
-          controls
-        ></video>
+        <h1 class="section__title school-tour__title py-5 text-center">School tour</h1>
+        <video class="school-tour__video container" src="videos/video_file.mp4" controls></video>
       </section>
-      <div class="space space--large"></div>
-      <h1 class="section__title stat__title">Some statistics</h1>
-      <section class="stat">
-        <table class="stat__figure">
-          <tr>
-            <th>1500</th>
-          </tr>
-          <tr>
-            <td>Students</td>
-          </tr>
-        </table>
-        <table class="stat__figure">
-          <tr>
-            <th>154</th>
-          </tr>
-          <tr>
-            <td>Staff</td>
-          </tr>
-        </table>
-        <table class="stat__figure">
-          <tr>
-            <th>3</th>
-          </tr>
-          <tr>
-            <td>Campuses</td>
-          </tr>
-        </table>
-      </section>
-      <div class="space"></div>
-      <h1 class="section__title management__title">
-        Management staff
-      </h1>
-      <section class="management">
-        <figure class="management__figure">
-          <img
-            class="management__figure__image"
-            src="images/school_principal.jpg"
-            alt="Christopher Nolan, the school principal, smiling"
-          />
-          <figcaption class="management__figure__caption">
-            Christopher Nolan, Principal.
-          </figcaption>
+      <div class="py-5"></div>
+      <h1 class="text-center py-3">Some statistics</h1>
+        <section class="stat row text-center">
+          <table class="stat__figure col">
+            <tr>
+              <th class="display-3">1500</th>
+            </tr>
+            <tr>
+              <td class="h3">Students</td>
+            </tr>
+          </table>
+          <table class="stat__figure col">
+            <tr>
+              <th class="display-3">154</th>
+            </tr>
+            <tr>
+              <td class="h3">Staff</td>
+            </tr>
+          </table>
+          <table class="stat__figure col">
+            <tr>
+              <th class="display-3">3</th>
+            </tr>
+            <tr>
+              <td class="h3">Campuses</td>
+            </tr>
+          </table>
+        </section>
+      <div class="py-5"></div>
+      <h1 class="py-3">Management staff</h1>
+      <section class="management row py-5">
+        <figure class="management__figure col d-flex flex-column align-items-center">
+          <img class="management__image img-thumbnail" src="images/school_principal.jpg" alt="Christopher Nolan, the school principal, smiling" />
+          <figcaption class="text-center">Christopher Nolan, Principal.</figcaption>
         </figure>
-        <figure class="management__figure">
-          <img
-            class="management__figure__image"
-            src="images/vice_principal.jpg"
-            alt="Brynn Mata, standing in the middle of the school corridor"
-          />
-          <figcaption class="management__figure__caption">
-            Brynn Mata, Vice Principal.
-          </figcaption>
+        <figure class="management__figure col d-flex flex-column align-items-center">
+          <img class="management__image img-thumbnail" src="images/vice_principal.jpg" alt="Brynn Mata, standing in the middle of the school corridor" />
+          <figcaption class="text-center">Brynn Mata, Vice Principal.</figcaption>
         </figure>
-        <figure class="management__figure">
-          <img
-            class="management__figure__image"
-            src="images/superintendent.jpg"
-            alt="Cassie French, at work in her office"
-          />
-          <figcaption class="management__figure__caption">
-            Cassie French, superintendent
-          </figcaption>
+        <figure class="management__figure col d-flex flex-column align-items-center">
+          <img class="management__image img img-thumbnail" src="images/superintendent.jpg" alt="Cassie French, at work in her office" />
+          <figcaption class="text-center">Cassie French, superintendent</figcaption>
         </figure>
       </section>
       <div class="space"></div>
@@ -160,13 +117,20 @@
     <footer class="pb-0 bg-dark">
       <div class="row d-flex justify-content-around text-white">
         <div class="col-md-3 my-5">
-          
           <h5>Contact us</h5>
           <form id="form">
             <div id="error" class="error error--footer"></div>
             <div class="d-flex flex-column w-100 gap-2">
               <label class="contact-us__label visually-hidden" for="message-field">Your message</label>
-              <textarea id="message-field" class="form-control" type="text" name="message-field" cols="22" rows="4" placeholder="Your message"></textarea>
+              <textarea
+                id="message-field"
+                class="form-control"
+                type="text"
+                name="message-field"
+                cols="22"
+                rows="4"
+                placeholder="Your message"
+              ></textarea>
               <label for="newsletter1" class="visually-hidden">Email address</label>
               <div class="d-flex flex-column flex-sm-row gap-2">
                 <label class="contact-us__label visually-hidden" for="email-field">Your email</label>
