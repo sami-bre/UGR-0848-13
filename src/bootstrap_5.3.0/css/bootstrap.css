@@ -11794,3 +11794,25 @@ textarea.form-control-lg {
 .address__item img {
   max-width: 2em;
 }
+
+.figure__image--principal {
+  max-width: 20em;
+}
+
+.figure__image--classroom {
+  max-width: 26em;
+}
+
+@media screen and (max-width: 434px) {
+  .figure__image--classroom {
+    max-width: 22em;
+  }
+}
+
+.student__figure__image {
+  max-width: 16em;
+}
+
+.testimonial blockquote {
+  max-width: 20em;
+}

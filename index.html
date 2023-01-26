@@ -12,181 +12,197 @@
     <title>Wisdom School</title>
   </head>
   <body>
-    <div>
-      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-        <a href="/" class="d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-          <img class="bi me-2 main-logo" src="src/images/logo.png" alt="a book sitting on a cylindar as the logo of the website" />
-          <span class="display-5">Wisdom School</span>
-        </a>
+    <div class="container">
+      <div>
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <img class="bi me-2 main-logo" src="src/images/logo.png" alt="a book sitting on a cylindar as the logo of the website" />
+            <span class="display-5">Wisdom School</span>
+          </a>
 
-        <ul class="nav nav-pills m-4 d-flex flex-wrap justify-content-center">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link active" aria-current="page">Home</a>
-          </li>
-          <li class="nav-item"><a href="src/academics.html" class="nav-link">Academics</a></li>
-          <li class="nav-item"><a href="src/calendar.html" class="nav-link">Calendar</a></li>
-          <li class="dropdown">
-            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-              Get to know us
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><a class="dropdown-item" href="src/about_page.html">About</a></li>
-              <li><a class="dropdown-item" href="src/contact_us.html">Contact us</a></li>
-              <li><a class="dropdown-item" href="src/faq.html">FAQ</a></li>
-            </ul>
-          </li>
-          <li class="nav-item"><a href="src/stories.html" class="nav-link">Stories</a></li>
-        </ul>
-      </header>
-    </div>
+          <ul class="nav nav-pills m-4 d-flex flex-wrap justify-content-center">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link active" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item"><a href="src/academics.html" class="nav-link">Academics</a></li>
+            <li class="nav-item"><a href="src/calendar.html" class="nav-link">Calendar</a></li>
+            <li class="dropdown">
+              <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Get to know us
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="src/about_page.html">About</a></li>
+                <li><a class="dropdown-item" href="src/contact_us.html">Contact us</a></li>
+                <li><a class="dropdown-item" href="src/faq.html">FAQ</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="src/stories.html" class="nav-link">Stories</a></li>
+          </ul>
+        </header>
+      </div>
 
-    <main class="home-main-display">
-      <h1 class="welcome__title">Welcome to Wisdom School</h1>
-      <section>
-        <h1 class="welcome__title">Welcome to Wisdom School</h1>
-        <div class="welcome">
-          <figure class="figure figure--principal">
-            <img
-              class="figure__image figure__image--principal"
-              src="src/images/school_principal.jpg"
-              alt="Christopher Nolan, the school principal, smiling"
-            />
-            <figcaption class="figure__caption">Christopher Nolan, the school principal</figcaption>
-          </figure>
-          <div class="welcome__content">
-            <p class="welcome__message">
-              Welcome to the place where the future of your children takes shape. Here at Wisdom School we work hard to keep your kid safe and most of
-              all, grow intellectually as well as socially. We can't stop till we make them be the best they can be.
-            </p>
-            <h2 class="welcome__title welcome__title--small">Listen to the message</h2>
-            <audio class="welcome__message--audio" src="src/audios/audio_file.mp3" controls></audio>
+      <main class="home-main-display">
+        <h1 class="welcome__title my-5">Welcome to Wisdom School</h1>
+        <section>
+          <div class="welcome row">
+            <figure class="figure figure--principal col">
+              <img
+                class="figure__image figure__image--principal img-thumbnail"
+                src="src/images/school_principal.jpg"
+                alt="Christopher Nolan, the school principal, smiling"
+              />
+              <figcaption class="figure__caption">Christopher Nolan, the school principal</figcaption>
+            </figure>
+            <div class="welcome__content col mt-lg-4">
+              <h2 class="welcome__title">Message from the principal</h2>
+              <p class="welcome__message">
+                Welcome to the place where the future of your children takes shape. Here at Wisdom School we work hard to keep your kid safe and most
+                of all, grow intellectually as well as socially. We can't stop till we make them be the best they can be.
+              </p>
+              <h3 class="welcome__title welcome__title--small">Listen to the message</h3>
+              <audio class="welcome__message--audio" src="src/audios/audio_file.mp3" controls></audio>
+            </div>
           </div>
-        </div>
-      </section>
-      <div class="space"></div>
-      <article>
-        <h1 class="info__title">Something about Wisdom School</h1>
-        <div class="info">
-          <figure class="figure figure--classroom">
-            <img
-              class="figure__image figure__image--classroom"
-              src="src/images/school_image.jpg"
-              alt="a teacher standing in front of students in a clasroom at wisdom school."
-            />
-            <figcaption class="figure__caption">Our awesome 5th graders with their teacher</figcaption>
-          </figure>
-          <p class="info__content">
-            Wisdom school is located in Addis Ababa, 4 kilo. Addis Ababa is the sprawling capital city of Ethiopia. Wisdom School has been a part of
-            the Addis community for over 25 years and has an outstanding heritage and reputation for dedicated teachers and effective instruction.
-            Currently Wisdom School serves approximately 1500 students in 3 different capuses.
-          </p>
-        </div>
-      </article>
-      <div class="space"></div>
-      <section>
-        <h1>Students of the month</h1>
-        <p>We honor our best berforming students of the month by featuring them here.</p>
-        <div class="student_row">
-          <article class="student">
-            <figure class="student__figure">
-              <img class="student__figure__image" src="src/images/student_1.jpg" alt="Jamison Crosby, wearing his back-pack" />
-              <figcaption class="student__figure__caption">Jamison Crosby</figcaption>
+        </section>
+        <div class="space m-3, p-4"></div>
+        <article>
+          <div class="row">
+            <div class="col">
+              <h2 class="info__title">Something about Wisdom School</h2>
+              <p class="info__content">
+                Wisdom school is located in Addis Ababa, 4 kilo. Addis Ababa is the sprawling capital city of Ethiopia. Wisdom School has been a part
+                of the Addis community for over 25 years and has an outstanding heritage and reputation for dedicated teachers and effective
+                instruction. Currently Wisdom School serves approximately 1500 students in 3 different capuses.
+              </p>
+            </div>
+
+            <figure class="figure figure--classroom col .container">
+              <img
+                class="figure__image figure__image--classroom img-thumbnail"
+                src="src/images/school_image.jpg"
+                alt="a teacher standing in front of students in a clasroom at wisdom school."
+              />
+              <figcaption class="figure__caption">Our awesome 5th graders with their teacher</figcaption>
             </figure>
-            <p class="student_content">
-              Jamison Crosby is a 6 grader at Wisdom School. He likes meddling in the school physics lab a lot. Everybody was mesmerized last month
-              when he came up with the idea of auto-trigerred alarm clock for the school.
-            </p>
-          </article>
-          <article class="student">
-            <figure class="student__figure">
-              <img class="student__figure__image" src="src/images/student_2.jpg" alt="Cole Ibarra, standing in front of a black board" />
-              <figcaption class="student__figure__caption">Cole Ibarra</figcaption>
-            </figure>
-            <p class="studetn__content">
-              Cole Ibarra is another 6 grader from Wisdom School. Writing stories is his biggest bobby. He is the 4th time winner of the nonthly
-              literature competition at Wisdom School.
-            </p>
-          </article>
-          <article class="student">
-            <figure class="student__figure">
-              <img class="student__figure__image" src="src/images/student_3.jpg" alt="Aylin Jenkins, smiling brightly" />
-              <figcaption class="student__figure__caption">Aylin Jenkins</figcaption>
-            </figure>
-            <p class="student__content">
-              Aylin Jenkins is one of the brightest at Wisdom School. She has never failed to score in the top 3 of her classroom, not to mention that
-              she won the national math tournament not once but twice.
-            </p>
-          </article>
-        </div>
-      </section>
-      <div class="space--large"></div>
-      <h1 class="section__title stat__title">Some statistics</h1>
-      <section class="stat">
-        <table class="stat__figure">
-          <tr>
-            <th>1500</th>
-          </tr>
-          <tr>
-            <td>Students</td>
-          </tr>
-        </table>
-        <table class="stat__figure">
-          <tr>
-            <th>154</th>
-          </tr>
-          <tr>
-            <td>Staff</td>
-          </tr>
-        </table>
-        <table class="stat__figure">
-          <tr>
-            <th>3</th>
-          </tr>
-          <tr>
-            <td>Campuses</td>
-          </tr>
-        </table>
-      </section>
-      <div class="space"></div>
-      <section>
-        <h1>What people are saying about us</h1>
-        <div class="testimonial">
-          <blockquote class="testimonial__entry">
-            Wisdom School is awesome. my kid has never been happier, and I've never been more confident! - <em>Dallas Mooney, parent</em>
-          </blockquote>
-          <blockquote class="testimonial__entry">
-            Imagine a school where your children eagerly look forward to attending every day. - <em>Sameera Kamulkar, parent</em>
-          </blockquote>
-          <blockquote class="testimonial__entry">
-            My son was admitted to Legacy School in grade 7. In the small and secure environment that the school provided, he transitioned from a shy
-            and introverted boy to a confident and happy young adult. -
-            <em>Bailee Gibson, parent</em>
-          </blockquote>
-          <blockquote class="testimonial__entry">
-            Our 2 sons had studied in 2 schools before they joined Legacy. This school was like a breath of fresh air for them, especially after the
-            previous school they had been to. - <em> Gilberto Frye, parent</em>
-          </blockquote>
-          <blockquote class="testimonial__entry">
-            My son has said specifically "I did't know I could be smart at Science” and my daughter said “she is learning things and it is sticking in
-            her head.” - <em>Rhianna Spence, parent</em>
-          </blockquote>
-          <blockquote class="testimonial__entry">
-            Thanks to Ms Lynne Bates and the whole Team for all the hard work towards the development of the School. I am a new parent to this school
-            and I find this as a wonderfully disciplined and organised school in all aspects. - <em>Abraham Norris, parent</em>
-          </blockquote>
-        </div>
-      </section>
-    </main>
+          </div>
+        </article>
+        <div class="space m-3 p-2"></div>
+        <section>
+          <h1 class="py-5">Students of the month</h1>
+          <p>We honor our best berforming students of the month by featuring them here.</p>
+          <div class="student_row row py-3">
+            <article class="student d-flex flex-column col align-items-center">
+              <figure class="student__figure">
+                <img class="student__figure__image img-thumbnail" src="src/images/student_1.jpg" alt="Jamison Crosby, wearing his back-pack" />
+                <figcaption class="student__figure__caption">Jamison Crosby</figcaption>
+              </figure>
+              <p class="student_content px-4">
+                Jamison Crosby is a 6 grader at Wisdom School. He likes meddling in the school physics lab a lot. Everybody was mesmerized last month
+                when he came up with the idea of auto-trigerred alarm clock for the school.
+              </p>
+            </article>
+            <article class="student d-flex flex-column col align-items-center">
+              <figure class="student__figure">
+                <img
+                  class="student__figure__image img-thumbnail"
+                  src="src/images/student_2.jpg"
+                  alt="Cole Ibarra, standing in front of a black board"
+                />
+                <figcaption class="student__figure__caption">Cole Ibarra</figcaption>
+              </figure>
+              <p class="studetn__content px-4">
+                Cole Ibarra is another 6 grader from Wisdom School. Writing stories is his biggest bobby. He is the 4th time winner of the nonthly
+                literature competition at Wisdom School.
+              </p>
+            </article>
+            <article class="student d-flex flex-column col align-items-center">
+              <figure class="student__figure">
+                <img class="student__figure__image img-thumbnail" src="src/images/student_3.jpg" alt="Aylin Jenkins, smiling brightly" />
+                <figcaption class="student__figure__caption">Aylin Jenkins</figcaption>
+              </figure>
+              <p class="student__content px-4">
+                Aylin Jenkins is one of the brightest at Wisdom School. She has never failed to score in the top 3 of her classroom, not to mention
+                that she won the national math tournament not once but twice.
+              </p>
+            </article>
+          </div>
+        </section>
+        <div class="space--large m-3 p-3 pb-4"></div>
+        <h1 class="text-center py-3">Some statistics</h1>
+        <section class="stat row text-center">
+          <table class="stat__figure col">
+            <tr>
+              <th class="display-3">1500</th>
+            </tr>
+            <tr>
+              <td class="h3">Students</td>
+            </tr>
+          </table>
+          <table class="stat__figure col">
+            <tr>
+              <th class="display-3">154</th>
+            </tr>
+            <tr>
+              <td class="h3">Staff</td>
+            </tr>
+          </table>
+          <table class="stat__figure col">
+            <tr>
+              <th class="display-3">3</th>
+            </tr>
+            <tr>
+              <td class="h3">Campuses</td>
+            </tr>
+          </table>
+        </section>
+        <div class="m-3 p-3"></div>
+        <section>
+          <h1 class="my-5">What people are saying about us</h1>
+          <div class="testimonial d-flex flex-wrap text-center justify-content-between">
+            <blockquote class="testimonial__entry my-2">
+              Wisdom School is awesome. my kid has never been happier, and I've never been more confident! - <em>Dallas Mooney, parent</em>
+            </blockquote>
+            <blockquote class="testimonial__entry">
+              My son was admitted to Legacy School in grade 7. In the small and secure environment that the school provided, he transitioned from a
+              shy and introverted boy to a confident and happy young adult. -
+              <em>Bailee Gibson, parent</em>
+            </blockquote>
+            <blockquote class="testimonial__entry">
+              Imagine a school where your children eagerly look forward to attending every day. - <em>Sameera Kamulkar, parent</em>
+            </blockquote>
+            <blockquote class="testimonial__entry">
+              Our 2 sons had studied in 2 schools before they joined Legacy. This school was like a breath of fresh air for them, especially after the
+              previous school they had been to. - <em> Gilberto Frye, parent</em>
+            </blockquote>
+            <blockquote class="testimonial__entry">
+              My son has said specifically "I did't know I could be smart at Science” and my daughter said “she is learning things and it is sticking
+              in her head.” - <em>Rhianna Spence, parent</em>
+            </blockquote>
+            <blockquote class="testimonial__entry">
+              Thanks to Ms Lynne Bates and the whole Team for all the hard work towards the development of the School. I am a new parent to this
+              school and I find this as a wonderfully disciplined and organised school in all aspects. - <em>Abraham Norris, parent</em>
+            </blockquote>
+          </div>
+        </section>
+      </main>
+    </div>
     <footer class="pb-0 bg-dark">
       <div class="row d-flex justify-content-around text-white">
         <div class="col-md-3 my-5">
-          
           <h5>Contact us</h5>
           <form id="form">
             <div id="error" class="error error--footer"></div>
             <div class="d-flex flex-column w-100 gap-2">
               <label class="contact-us__label visually-hidden" for="message-field">Your message</label>
-              <textarea id="message-field" class="form-control" type="text" name="message-field" cols="22" rows="4" placeholder="Your message"></textarea>
+              <textarea
+                id="message-field"
+                class="form-control"
+                type="text"
+                name="message-field"
+                cols="22"
+                rows="4"
+                placeholder="Your message"
+              ></textarea>
               <label for="newsletter1" class="visually-hidden">Email address</label>
               <div class="d-flex flex-column flex-sm-row gap-2">
                 <label class="contact-us__label visually-hidden" for="email-field">Your email</label>
