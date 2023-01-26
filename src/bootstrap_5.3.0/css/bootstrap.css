@@ -11830,3 +11830,8 @@ textarea.form-control-lg {
 .management__image {
   max-width: 16em;
 }
+
+.card-display {
+  min-width: 20em;
+  max-width: 26em;
+}
